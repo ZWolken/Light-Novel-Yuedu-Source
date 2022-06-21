@@ -13,7 +13,7 @@
 #### 备注
 
 1.  动漫之家的轻小说站因为各种原因无法直接网页访问，因此无法做源，如有需要建议使用[动漫之家Flutter客户端](https://github.com/xiaoyaocz/dmzj_flutter)
-2.  轻之国度(LK)维护完毕后网站有所改动，先前的源全部失效，几位大佬（[酷安 转义字符](http://www.coolapk.com/u/2060038) 和 [酷安 金01461](http://www.coolapk.com/u/1208939)）重新写了源，基本可以正常使用了
+2.  轻之国度(LK)维护完毕后网站有所改动，先前的源全部失效，几位大佬（[酷安@转义字符](http://www.coolapk.com/u/2060038) 和 [酷安@金01461](http://www.coolapk.com/u/1208939)）重新写了源，基本可以正常使用了
 3.  ESJ的源来自[酷安@户山香澄Official](http://www.coolapk.com/u/614507)的[帖子](https://www.coolapk.com/feed/33474742)并做了更新，详细使用说明请看[另一原帖](https://www.coolapk.com/feed/32715700)，发现若需正常使用请科学后登录
 4.  EPUB轻小说资源下载站和其他原版WEB网站建议看旧Release
 5.  日本原版WEB小说的源请看旧Release

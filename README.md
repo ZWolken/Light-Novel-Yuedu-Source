@@ -10,6 +10,7 @@
 仅可将此 **仓库链接** 转载至其他平台，
  **其余内容请勿转载** 
 
+Release Link链接：https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases
 #### 备注
 
 1.  动漫之家的轻小说站因为各种原因无法直接网页访问，因此无法做源，如有需要建议使用[动漫之家Flutter客户端](https://github.com/xiaoyaocz/dmzj_flutter)

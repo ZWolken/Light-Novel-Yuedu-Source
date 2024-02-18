@@ -12,7 +12,7 @@
 <u>内容转载请保持原说明。</u><br>
 <u>书源转载整合请保持原源名称以及原源注释。</u>
 
-详细原项目说明请见：[原README文件](old_ver\README.md)
+详细原项目说明请见：[原README文件](old_ver/README.md)
 
 源文件请见仓库内容或者[Release Link链接](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases)
 

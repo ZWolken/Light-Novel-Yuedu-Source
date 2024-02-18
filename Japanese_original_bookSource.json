@@ -1,0 +1,433 @@
+[
+  {
+    "bookSourceComment": "网络不畅考虑科学上网使用\n整理修改：酷安 Wolken",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "小説家になろう",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://syosetu.com",
+    "bookUrlPattern": "",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"異世界\",\"url\":\"http://yomou.syosetu.com/search.php?&word=異世界&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"転生\",\"url\":\"http://yomou.syosetu.com/search.php?&word=転生&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"冒険\",\"url\":\"http://yomou.syosetu.com/search.php?&word=冒険&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"主人公最強\",\"url\":\"http://yomou.syosetu.com/search.php?&word=主人公最強&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"男主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=男主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"女主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=女主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"残酷な描写\",\"url\":\"http://yomou.syosetu.com/search.php?&word=残酷な描写あり&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"現代社会\",\"url\":\"http://yomou.syosetu.com/search.php?&word=現代社会&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ESN大賞\",\"url\":\"http://yomou.syosetu.com/search.php?&word=ESN大賞&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"R15\",\"url\":\"http://yomou.syosetu.com/search.php?&word=R15&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"日常\",\"url\":\"http://yomou.syosetu.com/search.php?&word=日常&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"恋愛\",\"url\":\"http://yomou.syosetu.com/search.php?&word=恋愛&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"魔法\",\"url\":\"http://yomou.syosetu.com/search.php?&word=魔法&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"学園\",\"url\":\"http://yomou.syosetu.com/search.php?&word=学園&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"青春\",\"url\":\"http://yomou.syosetu.com/search.php?&word=青春&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"精霊\",\"url\":\"http://yomou.syosetu.com/search.php?&word=精霊&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"奴隷\",\"url\":\"http://yomou.syosetu.com/search.php?&word=奴隷&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"貴族\",\"url\":\"http://yomou.syosetu.com/search.php?&word=貴族&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+    "lastUpdateTime": 1647273625042,
+    "loginUrl": "",
+    "respondTime": 5320,
+    "ruleBookInfo": {
+      "init": "",
+      "intro": "id.novel_ex@html"
+    },
+    "ruleContent": {
+      "content": "id.novel_honbun@tag.p@text"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.searchkekka_box",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "@js:'http://1t.click/GPx'",
+      "intro": "class.ex@text##^\\s+",
+      "kind": "tag.td.1@tag.a.0@text&&tag.td.1@tag.a.1@text&&tag.td.1@tag.a.2@text",
+      "lastChapter": "tag.td.1@text##.+最終更新日：(\\d+/\\d+/\\d+ \\d+:\\d+).+##$1",
+      "name": "class.novel_h@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_sublist2@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://yomou.syosetu.com/search.php?&word={{key}}&order_former=search&order=weeklypoint¬nizi=1&p={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "小説を読もう！",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yomou.syosetu.com/",
+    "bookUrlPattern": "https://ncode.syosetu.com/\\w*/",
+    "concurrentRate": "",
+    "customOrder": 3,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"新着一覧\",\"url\":\"https://yomou.syosetu.com/search.php?order=new&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"小説PickUp！一覧\",\"url\":\"https://syosetu.com/pickup/list/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"日間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"週間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"月間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"四半期ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"年間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"累計ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://yomou.syosetu.com/rank/list/type/total_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://yomou.syosetu.com/rank/list/type/total_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://yomou.syosetu.com/rank/list/type/total_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://yomou.syosetu.com/rank/list/type/total_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"ジャンルから探す (総合ポイントの高い順)\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"恋愛(異世界)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=101&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"恋愛(現実世界)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=102&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"ファンタジー(ハイファンタジー)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=201&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"ファンタジー(ローファンタジー)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=202&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"文芸(純文学)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=301&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(ヒューマンドラマ)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=302&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(歴史)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=303&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(推理)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=304&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(ホラー)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=305&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(アクション)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=306&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"文芸(コメディー)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=307&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF(VRゲーム)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=401&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF(宇宙)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=402&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF(空想科学)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=403&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF(パニック)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=404&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"その他(童話)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=9901&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"その他(詩)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=9902&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"その他(エッセイ)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=9903&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"その他(リプレイ)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=9904&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"その他(その他)\",\"url\":\"https://yomou.syosetu.com/search.php?genre=9999&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"異世界\",\"url\":\"http://yomou.syosetu.com/search.php?&word=異世界&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"転生\",\"url\":\"http://yomou.syosetu.com/search.php?&word=転生&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"冒険\",\"url\":\"http://yomou.syosetu.com/search.php?&word=冒険&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"主人公最強\",\"url\":\"http://yomou.syosetu.com/search.php?&word=主人公最強&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"男主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=男主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"女主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=女主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"残酷な描写\",\"url\":\"http://yomou.syosetu.com/search.php?&word=残酷な描写あり&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"現代社会\",\"url\":\"http://yomou.syosetu.com/search.php?&word=現代社会&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ESN大賞\",\"url\":\"http://yomou.syosetu.com/search.php?&word=ESN大賞&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"R15\",\"url\":\"http://yomou.syosetu.com/search.php?&word=R15&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"日常\",\"url\":\"http://yomou.syosetu.com/search.php?&word=日常&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"恋愛\",\"url\":\"http://yomou.syosetu.com/search.php?&word=恋愛&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"魔法\",\"url\":\"http://yomou.syosetu.com/search.php?&word=魔法&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"学園\",\"url\":\"http://yomou.syosetu.com/search.php?&word=学園&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"青春\",\"url\":\"http://yomou.syosetu.com/search.php?&word=青春&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"精霊\",\"url\":\"http://yomou.syosetu.com/search.php?&word=精霊&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"奴隷\",\"url\":\"http://yomou.syosetu.com/search.php?&word=奴隷&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"貴族\",\"url\":\"http://yomou.syosetu.com/search.php?&word=貴族&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+    "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+    "lastUpdateTime": 1645019045716,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.info_inbox.1@a@text",
+      "init": "id.novel_contents",
+      "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+      "kind": "class.info_inbox.0@text&&class.info_inbox.3@text",
+      "name": "id.title_s1@a@text",
+      "tocUrl": "id.novelindex_button.0@a@href",
+      "wordCount": "class.infotop.1@class.h3_right.0@text"
+    },
+    "ruleContent": {
+      "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "class.c-novel-detail-item__name@text||class.ranking@tag.li.1@html||class.accordion_head@html##([\\s\\S]*作者：)|(\\n[\\s\\S]*)|(<span class=\"marginleft\">[\\s\\S]*)",
+      "bookList": "class.c-panel__item c-novel-detail-item||class.smpnovel_list||class.c-trad-contents@class.ranking",
+      "bookUrl": "text.小説情報@href||class.title@tag.a.0@href##(/[0-9]*[\\w]+[0-9]+[\\w]+/)##https://ncode.syosetu.com/novelview/infotop/ncode$1###",
+      "intro": "class.c-readmore__mask js-readmore-pickup__ellipsis@text||class.smpnovel_ex@text",
+      "kind": "class.c-novel-detail-item__genre@text||class.marginleft@text||class.accordion_head@text##([\\s\\S]*ジャンル：)|( 小説情報)",
+      "lastChapter": "class.c-novel-detail-item__noveltype@text&&class.accordion_head@html&&class.ranking@tag.li.2@text&&class.attention@text##[\\s\\S]*(?=[連完短])|\\n[\\s\\S]*総合ポイント：|\\s|[0-9,]*文字",
+      "name": "class.c-novel-detail-item__title@text||class.ranking@class.title@tag.a.0@text||class.novel_h@text",
+      "wordCount": "class.ranking@text||class.hide@tag.p.3@text##([0-9,]*文字)##$1###"
+    },
+    "ruleSearch": {
+      "author": "class.accordion_head@html##([\\s\\S]*作者：)|(\\n[\\s\\S]*)",
+      "bookList": "class.smpnovel_list",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.smpnovel_ex@text",
+      "kind": "class.accordion_head@text##([\\s\\S]*ジャンル：)|( 小説情報)",
+      "lastChapter": "class.accordion_head@html&&class.attention@text##[\\s\\S]*(?=[連完短])|\\n[\\s\\S]*総合ポイント：|\\s",
+      "name": "class.novel_h@text",
+      "wordCount": "class.hide@tag.p.3@text##([0-9,]*文字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+      "chapterName": "tag.a@text||class.novel_title@text",
+      "chapterUrl": "tag.a@href||",
+      "nextTocUrl": "text.>@href",
+      "updateTime": "class.kaikou@text"
+    },
+    "searchUrl": "https://yomou.syosetu.com/search.php?word={{key}}&p={{page}}&order=hyoka",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "ラブノベ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://lovenove.syosetu.com/",
+    "bookUrlPattern": "https://ncode.syosetu.com/\\w*/",
+    "concurrentRate": "",
+    "customOrder": 4,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"恋愛小説ランキング (総合ポイントの高い順)\",\"url\":\"https://lovenove.syosetu.com/search/search/?order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"新着一覧\",\"url\":\"https://lovenove.syosetu.com/search/search/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"完結済み連載小説\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=er&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"連載中\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=r&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"短編\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=t&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ジャンル：異世界\",\"url\":\"https://lovenove.syosetu.com/search/search/?genre=101&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ジャンル：現実世界\",\"url\":\"https://lovenove.syosetu.com/search/search/?&genre=102&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+    "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+    "lastUpdateTime": 1645019141494,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.info_inbox.1@a@text",
+      "init": "id.novel_contents",
+      "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+      "kind": "class.info_inbox.0@text&&class.info_inbox.3@text",
+      "name": "id.title_s1@a@text",
+      "tocUrl": "id.novelindex_button.0@a@href",
+      "wordCount": "class.infotop.1@class.h3_right.0@text"
+    },
+    "ruleContent": {
+      "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.clearfix.1@tag.a.0@text",
+      "bookList": "class.search_result clearfix",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.search_result clearfix@tag.p@text",
+      "kind": "class.clearfix.3@text##[ジャンル\\s]",
+      "lastChapter": "class.search_result clearfix@html##[\\s\\S]*> (?=[0-9,]+ pt)|\\s(?=pt)|</span>|\\n[\\s\\S]*",
+      "name": "class.novel_title@text",
+      "wordCount": "class.clearfix.2@text##([0-9,]+文字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+      "chapterName": "tag.a@text||class.novel_title@text",
+      "chapterUrl": "tag.a@href||",
+      "nextTocUrl": "text.>@href",
+      "updateTime": "class.kaikou@text"
+    },
+    "searchUrl": "https://lovenove.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "ノクターンノベルズ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://noc.syosetu.com/top/top/",
+    "bookUrlPattern": "https://novel18.syosetu.com/\\w*/",
+    "concurrentRate": "",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"新着一覧\",\"url\":\"https://noc.syosetu.com/search/search/search.php?order=new&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"小説PickUp！一覧\",\"url\":\"https://noc.syosetu.com/pickup/list/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"日間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"週間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"月間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"四半期ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"年間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\r\n]",
+    "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+    "lastUpdateTime": 1645021222601,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.info_inbox.1@a@text",
+      "init": "id.novel_contents",
+      "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+      "kind": "class.info_inbox.3@text",
+      "lastChapter": "",
+      "name": "id.title_s1@a@text",
+      "tocUrl": "id.novelindex_button.0@a@href",
+      "wordCount": "class.infotop.1@class.h3_right.0@text"
+    },
+    "ruleContent": {
+      "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "class.pickupnovellist@tag.li.2@a.0@text||tag.li.1@text##作者：",
+      "bookList": "class.pickupnovellist||class.novellist||class.ranking_inbox@class.ranking",
+      "bookUrl": "class.novellist@tag.li.2@tag.a@href||class.dummy@ul@tag.li.1@a@href||class.pickupnovellist@tag.li.2@tag.a.1@href",
+      "intro": "class.pickup_ex@text||class.dummy@ul@class.ex@text",
+      "kind": "class.keyword@tag.a@text",
+      "lastChapter": "class.ranking@tag.li.2@text&&class.novellist@tag.li.2@text&&class.attention@text##[／：小説情報総合ポイント\\s]|[0-9,]+文字|[\\s\\S]*(?=[連完短])",
+      "name": "class.pickup_title@text||class.title@tag.a@text",
+      "wordCount": "class.dummy@tag.ul@tag.li.3@text&&tag.li.2@text##([0-9,]*文字)##$1###"
+    },
+    "ruleSearch": {
+      "author": "class.novellist@tag.li.1@text##作者：",
+      "bookList": "class.novellist",
+      "bookUrl": "class.novellist@tag.li.2@tag.a@href",
+      "intro": "class.ex@text",
+      "kind": "class.keyword@tag.a@text",
+      "lastChapter": "tag.li.2@text&&class.attention@text##[／：小説情報総合ポイント\\s]",
+      "name": "class.title@text",
+      "wordCount": "class.dummy@tag.ul@tag.li.3@text##([0-9,]*文字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+      "chapterName": "tag.a@text||class.novel_title@text",
+      "chapterUrl": "tag.a@href||",
+      "nextTocUrl": "text.>@href",
+      "updateTime": "class.kaikou@text"
+    },
+    "searchUrl": "https://noc.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "ムーンライトノベルズ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://mnlt.syosetu.com/top/top/",
+    "bookUrlPattern": "https://novel18.syosetu.com/\\w*/",
+    "concurrentRate": "",
+    "customOrder": 6,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\": \"女性向け\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"新着女性向け作品一覧\",\"url\": \"https://mnlt.syosetu.com/search/search/search.php?order=new&nocgenre=2&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"小説PickUp！[女性向け]一覧\",\"url\": \"https://mnlt.syosetu.com/pickup/list/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"女性向けランキング[日間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[週間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[月間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[四半期]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[年間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬ\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"新着ＢＬ作品一覧\",\"url\": \"https://mnlt.syosetu.com/search/search/search.php?order=new&nocgenre=3&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"小説PickUp！[BL]一覧\",\"url\": \"https://mnlt.syosetu.com/pickup/listbl/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"ＢＬランキング[日間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[週間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[月間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[四半期]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[年間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n]",
+    "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+    "lastUpdateTime": 1645021979493,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.info_inbox.1@a@text",
+      "init": "id.novel_contents",
+      "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+      "kind": "class.info_inbox.3@text",
+      "name": "id.title_s1@a@text",
+      "tocUrl": "id.novelindex_button.0@a@href",
+      "wordCount": "class.infotop.1@class.h3_right.0@text"
+    },
+    "ruleContent": {
+      "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "class.pickupnovellist@tag.li.2@tag.a.0@text||tag.li.1@text##作者：",
+      "bookList": "class.ranking||class.pickupnovellist||class.novellist",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.pickup_ex@text||class.ex@text",
+      "kind": "class.novellist@tag.li.2@text&&class.keyword@text##([\\s\\S]+?/(?!小説情報))|/小説情報|キーワード： ",
+      "lastChapter": "class.ranking@tag.li.2@text&&class.novellist@class.attention@text&&class.novellist@tag.li.2@text##(総合ポイント：)|\\s|/[\\s\\S]+|([0-9,]+文字)",
+      "name": "class.pickup_title@tag.a.0@text||class.title@tag.a.0@text",
+      "wordCount": "class.ranking@tag.li.2@text||class.dummy@tag.li.3@text##([0-9,]+文字)##$1###"
+    },
+    "ruleSearch": {
+      "author": "class.novellist@tag.li.1@text##作者：",
+      "bookList": "class.novellist",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.ex@text",
+      "kind": "class.novellist@tag.li.2@text&&class.keyword@text##([\\s\\S]+?/(?!小説情報))|/小説情報|キーワード： ",
+      "lastChapter": "class.attention@text&&class.novellist@tag.li.2@text##(総合ポイント：)|\\s|/[\\s\\S]+",
+      "name": "class.title@tag.a.0@text",
+      "wordCount": "class.dummy@tag.li.3@text##([0-9,]+文字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+      "chapterName": "tag.a@text||class.novel_title@text",
+      "chapterUrl": "tag.a@href||",
+      "nextTocUrl": "text.>@href",
+      "updateTime": "class.kaikou@text"
+    },
+    "searchUrl": "https://mnlt.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "ハーメルン",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://syosetu.org/",
+    "bookUrlPattern": "https://syosetu.org/novel/[0-9]+/",
+    "concurrentRate": "",
+    "customOrder": 7,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n  {\r\n    \"title\": \"新着一覧\",\r\n    \"url\": \"https://syosetu.org/search/?mode=search&page={{page}}\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験1\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験2\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp2\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験3\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp3\"\r\n  },\r\n  {\r\n    \"title\": \"日間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_day\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_day\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_day\"\r\n  },\r\n  {\r\n    \"title\": \"週間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_week\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_week\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_week\"\r\n  },\r\n  {\r\n    \"title\": \"月間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_month\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_month\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_month\"\r\n  },\r\n  {\r\n    \"title\": \"四半期ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_3month\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_3month\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_3month\"\r\n  },\r\n  {\r\n    \"title\": \"年間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_year\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_year\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_year\"\r\n  },\r\n  {\r\n    \"title\": \"累計ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_total\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_total\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_total\"\r\n  }\r\n]",
+    "header": "{\r\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\r\n\"Cookie\": \"over18=off\"\r\n}",
+    "lastUpdateTime": 1646204412260,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.intro@text##▼詳細メニューへ|メニュー|作：",
+      "init": "id.page",
+      "intro": "class.table1@tag.a.0@text&&class.table1@tag.a.1@text&&class.table1@tag.tr.6@text&&class.table1@tag.tr.4@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "kind": "class.table1@tag.a.1@text&&class.table1@tag.tr.6@text",
+      "name": "class.table1@tag.a.0@text",
+      "tocUrl": "class.table1@tag.a.0@href",
+      "wordCount": "class.table1@tag.tr.10@tag.td.1@text"
+    },
+    "ruleContent": {
+      "content": "id.maegaki@html&&id.honbun@html&&id.atogaki@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.trigger@html##(作者：)(<a href=[\\s\\S]+?>)?([\\s\\S]+?)<(/a|/p)>##$3###",
+      "bookList": "class.search_box",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.toggle_container@tag.p.0@text",
+      "kind": "class.trigger@tag.p.1@text&&class.trigger@tag.p.2@text##タグ：|原作：|オリジナル：",
+      "lastChapter": "class.trigger@tag.p.3@text&&class.toggle_container@tag.p.4@text##[： ]",
+      "name": "class.trigger@tag.a.0@text",
+      "wordCount": "class.toggle_container@text##[\\s\\S]+合計：([0-9,]+字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.entry.0@tag.li||id.entry_box.1",
+      "chapterName": "tag.a.0@html||id.entry_box@html##(</span>|<h2> )([\\s\\S]+?)<(/h2|br)>##$2###",
+      "chapterUrl": "tag.a.0@href||",
+      "updateTime": "class.date@text||"
+    },
+    "searchUrl": "https://syosetu.org/search/?mode=search&type=28&word={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "ハーメルン(R18)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://syosetu.org/?r18",
+    "bookUrlPattern": "https://syosetu.org/novel/[0-9]+/",
+    "concurrentRate": "",
+    "customOrder": 8,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n  {\r\n    \"title\": \"R-18ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"日間\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_day\"\r\n  },\r\n  {\r\n    \"title\": \"日間(加点)\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_add_day\"\r\n  },\r\n  {\r\n    \"title\": \"新作日間(加点)\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_new\"\r\n  },\r\n  {\r\n    \"title\": \"ルーキー日間(加点)\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_new_user\"\r\n  },\r\n  {\r\n    \"title\": \"週間\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_week\"\r\n  },\r\n  {\r\n    \"title\": \"月間\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_month\"\r\n  },\r\n  {\r\n    \"title\": \"四半期\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_3month\"\r\n  },\r\n  {\r\n    \"title\": \"年間\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_year\"\r\n  },\r\n  {\r\n    \"title\": \"累計\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_total\"\r\n  },\r\n  {\r\n    \"title\": \"完結累計\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_complete_total\"\r\n  },\r\n  {\r\n    \"title\": \"相対評価\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_relative\"\r\n  },\r\n  {\r\n    \"title\": \"完結相対評価\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_r18_complete_relative\"\r\n  }\r\n]",
+    "header": "{\r\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\r\n\"Cookie\": \"over18=off\"\r\n}",
+    "lastUpdateTime": 1646204416519,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.intro@text##▼詳細メニューへ|メニュー|作：",
+      "init": "id.page",
+      "intro": "class.table1@tag.a.0@text&&class.table1@tag.a.1@text&&class.table1@tag.tr.6@text&&class.table1@tag.tr.4@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "kind": "class.table1@tag.a.1@text&&class.table1@tag.tr.6@text",
+      "name": "class.table1@tag.a.0@text",
+      "tocUrl": "class.table1@tag.a.0@href",
+      "wordCount": "class.table1@tag.tr.10@tag.td.1@text"
+    },
+    "ruleContent": {
+      "content": "id.maegaki@html&&id.honbun@html&&id.atogaki@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.trigger@html##(作者：)(<a href=[\\s\\S]+?>)?([\\s\\S]+?)<(/a|/p)>##$3###",
+      "bookList": "class.search_box",
+      "bookUrl": "text.小説情報@href",
+      "intro": "class.toggle_container@tag.p.0@text",
+      "kind": "class.trigger@tag.p.1@text&&class.trigger@tag.p.2@text##タグ：|原作：|オリジナル：",
+      "lastChapter": "class.trigger@tag.p.3@text&&class.toggle_container@tag.p.4@text##[： ]",
+      "name": "class.trigger@tag.a.0@text",
+      "wordCount": "class.toggle_container@text##[\\s\\S]+合計：([0-9,]+字)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.entry.0@tag.li||id.entry_box.1",
+      "chapterName": "tag.a.0@html||id.entry_box@html##(</span>|<h2> )([\\s\\S]+?)<(/h2|br)>##$2###",
+      "chapterUrl": "tag.a.0@href||",
+      "updateTime": "class.date@text||"
+    },
+    "searchUrl": "https://syosetu.org/search/?mode=search_r18&type=28&word={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "日本語Web小説",
+    "bookSourceName": "カクヨム",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kakuyomu.jp",
+    "bookUrlPattern": "",
+    "customOrder": 10,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"総合\",\"url\":\"https://kakuyomu.jp/rankings/all/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"異世界ファンタジー\",\"url\":\"https://kakuyomu.jp/rankings/fantasy/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ファンタジー\",\"url\":\"https://kakuyomu.jp/rankings/action/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF\",\"url\":\"https://kakuyomu.jp/rankings/sf/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"恋愛\",\"url\":\"https://kakuyomu.jp/rankings/love_story/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ラブコメ\",\"url\":\"https://kakuyomu.jp/rankings/romance/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"現代ドラマ\",\"url\":\"https://kakuyomu.jp/rankings/drama/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ホラー\",\"url\":\"https://kakuyomu.jp/rankings/horror/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ミステリー\",\"url\":\"https://kakuyomu.jp/rankings/mystery/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"エッセイ・ノンフィクション\",\"url\":\"https://kakuyomu.jp/rankings/nonfiction/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"歴史・時代・伝奇\",\"url\":\"https://kakuyomu.jp/rankings/history/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"創作論・評論\",\"url\":\"https://kakuyomu.jp/rankings/criticism/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"詩・童話・その他\",\"url\":\"https://kakuyomu.jp/rankings/others/weekly\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+    "lastUpdateTime": 1645022077718,
+    "loginUrl": "https://kakuyomu.jp/login",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "//span[@id=\"workAuthor-activityName\"]//text()",
+      "intro": "//section[@id=\"description\"]/p",
+      "kind": "//li[@id=\"workGenre\"]//text()",
+      "lastChapter": "//div[contains(@class, \"widget-toc-workInfo\")]//text()",
+      "name": "//h1[@id=\"workTitle\"]//text()"
+    },
+    "ruleContent": {
+      "content": "class.widget-episodeBody@p@text"
+    },
+    "ruleExplore": {
+      "author": "//a[@itemprop=\"author\"]//text()",
+      "bookList": "//div[contains(@class, \"widget-work\")]",
+      "bookUrl": "//a[@itemprop=\"name\"]/@href",
+      "intro": "//p[@class=\"widget-workCard-introduction\"]",
+      "kind": "//a[@itemprop=\"genre\"]//text()",
+      "lastChapter": "//span[contains(@class, \"widget-toc-workInfo\")]//text()",
+      "name": "//a[@itemprop=\"name\"]//text()"
+    },
+    "ruleSearch": {
+      "author": "//a[@itemprop=\"author\"]//text()",
+      "bookList": "//div[contains(@class, \"widget-work\")]",
+      "bookUrl": "//a[@itemprop=\"name\"]/@href",
+      "intro": "//p[@class=\"widget-workCard-introduction\"]",
+      "kind": "//a[@itemprop=\"genre\"]//text()",
+      "lastChapter": "//span[contains(@class, \"widget-workCard-status\")]/span//text()|//span[@itemprop=\"dateModified\"]/text()",
+      "name": "//a[@itemprop=\"name\"]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//div[@class=\"widget-toc-main\"]/ol/li",
+      "chapterName": "//span/text()",
+      "chapterUrl": "//a[@class=\"widget-toc-episode-episodeTitle\"]/@href"
+    },
+    "searchUrl": "/search?q={{key}}&page={{page}}",
+    "weight": 0
+  }
+]

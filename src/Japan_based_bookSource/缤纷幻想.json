@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "日轻，国轻\n整理修改：GitHub@ZWolken",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "缤纷幻想",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://colorful-fantasybooks.com",
+    "bookUrlPattern": "",
+    "customOrder": -88951544,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最新\",\"url\":\"/module/novel/type.php?page={{page}}\",\"style\":{\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1644843720683,
+    "loginUrl": "",
+    "respondTime": 6294,
+    "ruleBookInfo": {
+      "author": ".works-intro-digi@tag.em.0@text",
+      "coverUrl": ".works-cover img@src",
+      "intro": ".works-intro-short@html",
+      "kind": ".works-intro-digi@tag.em.-1@text&&.works-status@tag.li.0@text&&.ui-pl10@tag.span@text##小说类别.|\\s.*",
+      "lastChapter": ".works-ft-new a@text",
+      "name": ".works-intro-title@strong@text",
+      "wordCount": ".works-status@tag.li.5@text##完成字数."
+    },
+    "ruleContent": {
+      "content": "#content_cust@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.td.3@text",
+      "bookList": "tbody tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.0:5@text##\\[|\\]",
+      "lastChapter": "tag.td.2@text",
+      "name": "tag.td.1@text",
+      "wordCount": "tag.td.4@text"
+    },
+    "ruleSearch": {
+      "bookList": ".mod_book_list li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "sub@text",
+      "lastChapter": "h3@text",
+      "name": "h4@text"
+    },
+    "ruleToc": {
+      "chapterList": ".works-chapter-list p",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "/module/novel/search.php?type=1&key={{key}}&page={{page}}",
+    "weight": 0
+  }

@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "整理：GitHub@ZWolken,修改：gongfuture",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "铅笔小说x23qb",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x23qb.net",
+    "bookUrlPattern": "",
+    "customOrder": -88951542,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"https://www.x23qb.net/book/0-lastupdate-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"https://www.x23qb.net/book/0-postdate-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总点击榜\",\"url\":\"https://www.x23qb.net/book/0-allvisit-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"https://www.x23qb.net/book/0-allvote-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"https://www.x23qb.net/book/0-goodnum-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总字数榜\",\"url\":\"https://www.x23qb.net/book/0-size-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"完本小说\",\"url\":\"https://www.x23qb.net/book/0-quanben-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全部小说\",\"url\":\"https://www.x23qb.net/book/0-quanben-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"言情女生\",\"url\":\"/yanqing/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市青春\",\"url\":\"/dushi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"唯美纯爱\",\"url\":\"/danmei/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说の\",\"url\":\"/lightnovel/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/lishi/<,{{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1708245661882,
+    "loginUrl": "https://www.x23qb.net/login.php",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "id.count@tag.li.0@a@text",
+      "coverUrl": "id.bookimg@img@src",
+      "init": "",
+      "intro": "id.bookintro@p@textNodes",
+      "kind": "id.count@li!0:3@span@text",
+      "lastChapter": "class.chaw@tag.li.0@a@text",
+      "name": "class.d_title@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@html",
+      "nextContentUrl": "##nextpage=\"([^\"]+)\"##$1###",
+      "replaceRegex": "##铅笔小说|\\s*（继续下一页）\\s*"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": ".book_other@span.0@text",
+      "bookList": "id.sitebox@dl",
+      "bookUrl": "a@href",
+      "coverUrl": "img@_src",
+      "intro": ".book_des@text",
+      "kind": "tag.span.0@text&&tag.span.3@text",
+      "lastChapter": "class.book_other.1@a@text",
+      "name": "h3@a@text",
+      "wordCount": "class.book_other.0@tag.span.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chaw_c@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.x23qb.net/saerch.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=all\"\n}",
+    "weight": 0
+  }

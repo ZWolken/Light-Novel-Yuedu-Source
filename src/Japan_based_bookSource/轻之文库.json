@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "可登录\n整理修改：GitHub@ZWolken",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "轻之文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.linovel.net",
+    "customOrder": -88951553,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{'title':'分类专区','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'全部','url':'/cat/-1.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'文库精选','url':'/cat/2000.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'幻想','url':'/cat/1.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'战斗','url':'/cat/2.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'恋爱','url':'/cat/3.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'异界','url':'/cat/4.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'搞笑','url':'/cat/5.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'日常','url':'/cat/6.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'校园','url':'/cat/7.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'后宫','url':'/cat/8.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'科幻','url':'/cat/10.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'治愈','url':'/cat/11.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'超能力','url':'/cat/12.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'节操','url':'/cat/13.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'妖怪','url':'/cat/14.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'恐怖','url':'/cat/15.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'妹控','url':'/cat/16.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'伪娘','url':'/cat/17.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'魔法少女','url':'/cat/18.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'乙女','url':'/cat/19.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'同人','url':'/cat/20.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'百合','url':'/cat/21.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'偶像','url':'/cat/22.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'悬疑','url':'/cat/104.html?sort=hot&sign=-1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'排行榜','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'重推周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=zt&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'佳作周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=jz&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月票周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ticket&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'轻币周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=coin&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'墨水周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ink&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'应援周榜','url':'http://www.linovel.net/hub/getTopBooks?unit=supp&time=week&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'重推月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=zt&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'佳作月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=jz&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月票月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ticket&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'轻币月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=coin&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'墨水月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ink&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'应援月榜','url':'http://www.linovel.net/hub/getTopBooks?unit=supp&time=month&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'重推新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=zt&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'佳作新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=jz&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'轻币新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=coin&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'墨水新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ink&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'应援新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=supp&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月票新人榜','url':'http://www.linovel.net/hub/getTopBooks?unit=ticket&time=new&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+    "lastUpdateTime": 1645368591265,
+    "loginUrl": "https://www.linovel.net/auth/login",
+    "respondTime": 621,
+    "ruleBookInfo": {
+      "author": "class.name.3@text",
+      "coverUrl": ".book-cover@src",
+      "intro": ".about-text@text",
+      "kind": ".book-cats@text",
+      "lastChapter": "class.chapter-item new@text",
+      "name": ".book-title@text",
+      "tocUrl": "text.查看完整目录@href",
+      "wordCount": ".book-data@tag.span.0@text"
+    },
+    "ruleContent": {
+      "content": ".article-text@html",
+      "imageStyle": ""
+    },
+    "ruleExplore": {
+      "author": ".book-extra@text||author",
+      "bookList": ".book-draw||$.data.books[*]",
+      "bookUrl": ".book-name@href||https://www.linovel.net/book/{$.id}.html",
+      "coverUrl": ".book-cover@img@src||coverUrl",
+      "intro": ".book-intro@text||about",
+      "kind": ".book-tag@text||cat[*]",
+      "lastChapter": "class.vol-chapter@tag.li.-1@text||lastVolName",
+      "name": ".book-name@text||name",
+      "wordCount": "words"
+    },
+    "ruleSearch": {
+      "author": ".book-extra@text",
+      "bookList": ".search-book",
+      "bookUrl": "href",
+      "coverUrl": "img@src",
+      "intro": ".book-intro@text",
+      "kind": ".book-tag@text",
+      "name": ".book-name@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".chapter",
+      "chapterName": "@js:\nvar title = result.parentNode().parentNode().parentNode().parentNode().parentNode();\nresult = title.select('h2').text() +'：'+ result.text()",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "/search/?kw={{key}}&page={{page}}",
+    "weight": 0
+  }

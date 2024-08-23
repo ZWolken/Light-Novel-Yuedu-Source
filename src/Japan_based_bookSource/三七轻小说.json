@@ -1,4 +1,4 @@
-[
+
     {
         "bookSourceGroup": "",
         "bookSourceComment": "编写人员：GitHub@gongfuture\n不强制登录（目前）",
@@ -59,4 +59,3 @@
         "searchUrl": "https://www.37yq.com/so.html?searchkey={{key}}&page={{page}}&searchtype=all",
         "weight": 0
     }
-]

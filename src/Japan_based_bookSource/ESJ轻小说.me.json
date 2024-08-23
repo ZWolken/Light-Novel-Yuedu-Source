@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "请登录\n整理修改：GitHub@ZWolken\n原作者：酷安户山香澄Official",
+    "bookSourceGroup": "轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "ESJ轻小说.me",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.esjzone.me",
+    "bookUrlPattern": "https?://www.esjzone.me/detail/.*",
+    "customOrder": -88951559,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{'title':'首页推荐','url':'/&&','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'轻小说','url':'/list-01/{{page}}.html','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'日轻小说','url':'/list-11/{{page}}.html','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{'title':'最多收藏轻小说','url':'/list-17/{{page}}.html','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'原创小说','url':'/list-21/{{page}}.html','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'韩轻小说','url':'/list-31/{{page}}.html','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'R15','url':'/tags/R15/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'残酷描写','url':'/tags/殘酷描寫/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'喜剧','url':'/tags/喜劇/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'异世界','url':'/tags/异世界/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'勇者','url':'/tags/勇者/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'龙','url':'/tags/龙/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'技能','url':'/tags/技能/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'冒险','url':'/tags/冒险/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'转生','url':'/tags/转生/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'黑暗','url':'/tags/黑暗/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'萝莉','url':'/tags/萝莉/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'后宫','url':'/tags/后宫/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'魔法','url':'/tags/魔法/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'少女','url':'/tags/少女/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'病娇','url':'/tags/病娇/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'魔王','url':'/tags/魔王/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'战争','url':'/tags/战争/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'死亡','url':'/tags/死亡/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'穿越','url':'/tags/穿越/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'奴隶','url':'/tags/奴隶/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'主角','url':'/tags/主角/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'R18','url':'/tags/R18/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'恋爱','url':'/tags/恋爱/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'恶意千金','url':'/tags/惡役千金/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'主角（女）','url':'/tags/主角(女)/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'青梅竹马','url':'/tags/青梅竹馬/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'NTR','url':'/tags/NTR/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{'title':'战斗','url':'/tags/戰鬥/','style':{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"公告\",\"url\":\"/tags/公告/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"催坑区\",\"url\":\"/tags/推坑區/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"吧台（聊天）\",\"url\":\"/tags/吧台（聊天）/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+    "lastUpdateTime": 1703095984771,
+    "loginUrl": "https://www.esjzone.me/login.html",
+    "respondTime": 2438,
+    "ruleBookInfo": {
+      "author": "@css:ul[class=list-unstyled mb-2 book-detail]> li:nth-child(1) > a@text",
+      "coverUrl": "@css:div.col-md-3 > div > a > img@src",
+      "intro": "@css:div.description@text",
+      "kind": "@css:section.widget.widget-tags.hidden-lg-up.mt-30 > a@text",
+      "lastChapter": "@css:div[id = chapterList] >a:last-child@text",
+      "name": "@css:div.col-md-9.book-detail > h2@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "@css:div.forum-content.mt-3,div[class =d_post_content j_d_post_content]@all"
+    },
+    "ruleExplore": {
+      "coverUrl": "@css:div > div > a > div > div > img@data-src"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "@css: div.col-xl-9.col-lg-8.p-r-30 > div.row > div ",
+      "bookUrl": "@css:div> div > div > h5 > a@href",
+      "coverUrl": "@css:div > div > a > div > div > img@data-src",
+      "kind": "{{@css:.column:has(.icon-star-s)@text}},关注：{{@css:.column:has(.icon-eye)@text}},喜欢：{{@css:.column:has(.icon-heart)@text}},羽毛：{{@css:.column:has(.icon-feather)@text}},评论：{{@css:.column:has(.icon-message-square)@text}}##(\\([^()]+)##星$1人",
+      "lastChapter": "@css:div>div>div[class=card-ep mt-2]@text",
+      "name": "@css:div@title"
+    },
+    "ruleToc": {
+      "chapterList": "<js>r=org.jsoup.Jsoup.parse(result).select(\"#chapterList>*\");r.select(\"p:has(br)\").remove();\nm=r.select(\"p.non\").eachText();\nl=String(r).split(/<p class=\"non\">[\\S\\s]+?<\\/p>/);\nfor(i=1,j=0;i<l.length;i+=2,j++)l[i]=l[i].replace(/>(\\d+(?:-[^<>]+| *))(?=<)/g,\">\"+m[j]+\" $1\");l.join(\"\")</js>a",
+      "chapterName": "text##{{book.name}}[:：\\d\\s]+|\\d+-",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.esjzone.net/tags/{{key}}/",
+    "weight": 0
+  }

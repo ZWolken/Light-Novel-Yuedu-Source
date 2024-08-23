@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "bilibili专栏,日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "bilibili专栏[切换专用分组搜索]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "专栏",
+    "customOrder": -88951543,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\"User-Agent\":\"Mozilla/5.0 BiliDroid/6.66.0 (bbcallen@gmail.com) os/android model/RMX2117 mobi_app/android_b build/6660500 channel/master innerVer/6660500 osVer/10 network/2\"}",
+    "lastUpdateTime": 1708252942146,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "init": "",
+      "tocUrl": "https://app.bilibili.com/x/v2/space/article?appkey=07da50c9a0bf829f&build=6660500&pn={{d=1;c=d++;c}}&vmid=@get:{id}"
+    },
+    "ruleContent": {
+      "content": ".normal-article-holder@p@html",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "name",
+      "bookList": "data.items[*]",
+      "bookUrl": "https://www.bilibili.com/read/native?id={{$.param}}",
+      "checkKeyWord": "回家",
+      "coverUrl": "cover",
+      "intro": "desc",
+      "kind": "浏览：{{$.view}}次",
+      "name": "title@put:{id:$.mid}"
+    },
+    "ruleToc": {
+      "chapterList": "data.item[*]",
+      "chapterName": "title",
+      "chapterUrl": "https://www.bilibili.com/read/native?id={{$.param}}"
+    },
+    "searchUrl": "https://app.bilibili.com/x/v2/search/type?build=6660500&keyword={{key}}&pn={{page}}&ps=20&type=6",
+    "weight": 0
+  }

@@ -1,0 +1,57 @@
+
+    {
+        "bookSourceComment": "源仓库：antipodal\n23.11.2优化",
+        "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+        "bookSourceName": "神凑轻小说(m)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.shencou.com",
+        "customOrder": -88951558,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "日点击榜::http://m.shencou.com/top.php?type=dayvisit&page={{page}}\n周点击榜::http://m.shencou.com/top.php?type=weekvisit&page={{page}}\n月点击榜::http://m.shencou.com/top.php?type=monthvisit&page={{page}}\n总点击榜::http://m.shencou.com/top.php?type=allvisit&page={{page}}\n总收藏榜::http://m.shencou.com/top.php?type=goodnum&page={{page}}\n字数排行::http://m.shencou.com/top.php?type=size&page={{page}}\n日推荐榜::http://m.shencou.com/top.php?type=dayvote&page={{page}}\n周推荐榜::http://m.shencou.com/top.php?type=weekvote&page={{page}}\n月推荐榜::http://m.shencou.com/top.php?type=monthvote&page={{page}}\n电击文库::http://m.shencou.com/sort.php?sortid=1&page={{page}}\n富见文库::http://m.shencou.com/sort.php?sortid=2&page={{page}}\n角川文库::http://m.shencou.com/sort.php?sortid=3&page={{page}}\nMFJ文库::http://m.shencou.com/sort.php?sortid=4&page={{page}}\nFAMI通文::http://m.shencou.com/sort.php?sortid=5&page={{page}}\nGA文库::http://m.shencou.com/sort.php?sortid=6&page={{page}}\nHJ文库::http://m.shencou.com/sort.php?sortid=7&page={{page}}\n壹迅文库::http://m.shencou.com/sort.php?sortid=8&page={{page}}\n集英文库::http://m.shencou.com/sort.php?sortid=9&page={{page}}\n讲坛社库::http://m.shencou.com/sort.php?sortid=12&page={{page}}\n少女文库::http://m.shencou.com/sort.php?sortid=10&page={{page}}\nsf文库::http://m.shencou.com/sort.php?sortid=11&page={{page}}",
+        "header": "{\n\t\"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.1 Mobile Safari/537.36\",\n\t\"Referer\": \"https://m.shencou.com/mlooks.php\"\n}",
+        "lastUpdateTime": 1699158521919,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+          "coverUrl": ".tu@img@src",
+          "init": "",
+          "kind": "{{@@.catalog1@class.p4@text}},{{@@.p5@text}},{{@@.p2.1@text##：##:}}",
+          "lastChapter": ".info_chapters@.p2.0@li.0@text",
+          "tocUrl": "",
+          "wordCount": ".p6@text"
+        },
+        "ruleContent": {
+          "content": "#novelcontent@textNodes"
+        },
+        "ruleExplore": {
+          "author": ".right@.p4@||.p4@text",
+          "bookList": ".fl_list@.tt||.content_link",
+          "bookUrl": ".p2@a@href||a@href",
+          "coverUrl": "a@href||.p2@a@href@js:\naid = result.match(/[0-9]+/); \nstr = \"http://www.shencou.com/files/article/image/\" +( String(aid).length > 3?   String(aid)[0]: \"0\")+ \"/\" + aid + \"/\" + aid +\"s.jpg\"; \nstr\n",
+          "intro": ".right@.p5@text",
+          "kind": ".right@.p2@text||.p1@text",
+          "name": ".right@.p1@text||.p2@text",
+          "wordCount": ".right@.p3@text||.p3@text"
+        },
+        "ruleSearch": {
+          "author": "a.2@text",
+          "bookList": "@js:\npath = 'p.search_list';\nu=java.get('url');\nc=java.getElement(path);\nif (!c.length && result.includes('no-js')) {\n  cookie.removeCookie(source.getKey());\n  java.longToast(\"首次搜索过验证\");\n  s=java.startBrowserAwait(u,\"验证\").body();\n  //java.webView(null,u,null);\n  //s=java.ajax(u);\n  java.setContent(s);\n  java.getElement(path);\n}",
+          "bookUrl": "a@href",
+          "checkKeyWord": "",
+          "kind": "a.1@text",
+          "lastChapter": "",
+          "name": "a@text##《|》",
+          "wordCount": ""
+        },
+        "ruleToc": {
+          "chapterList": "div.info_chapters > ul:nth-child(5) > li",
+          "chapterName": "textNodes||\na@text",
+          "chapterUrl": "a@href",
+          "isVolume": "textNodes",
+          "nextTocUrl": "text.下一页@href"
+        },
+        "searchUrl": "@js:\nvar headers = JSON.parse(source.header);\nvar body = \"s=\"+key+\"&type=articlename\";\nvar option = { \n\t\"charset\": \"gbk\",\n\t\"method\": \"POST\",\n\t\"body\": body,\n\t\"headers\": headers\n\t};\nurl=\"https://m.shencou.com/mlooks.php,\"+JSON.stringify(option);\njava.put('url',url)",
+        "variableComment": "",
+        "weight": 0
+      }

@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "登录后才可搜索\n整理修改：GitHub@ZWolken",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "有度轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yodu.org/qingxiaoshuo",
+    "bookUrlPattern": "",
+    "customOrder": -88951545,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\r\n{\"title\":\"电击文库\",\"url\":\"https://www.yoduzw.com/dianjiwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"富士见文库\",\"url\":\"https://www.yoduzw.com/fushijianwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"角川文库\",\"url\":\"https://www.yoduzw.com/jiaochuanwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"MF文库J\",\"url\":\"https://www.yoduzw.com/MFwenkuJ/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"Fami通文库\",\"url\":\"https://www.yoduzw.com/Famitongwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"GA文库\",\"url\":\"https://www.yoduzw.com/GAwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"HJ文库\",\"url\":\"https://www.yoduzw.com/HJwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"一迅社\",\"url\":\"https://www.yoduzw.com/yixunshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"集英社\",\"url\":\"https://www.yoduzw.com/jiyingshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"小学馆\",\"url\":\"https://www.yoduzw.com/xiaoxueguan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"讲谈社\",\"url\":\"https://www.yoduzw.com/jiangtanshe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"少女文库\",\"url\":\"https://www.yoduzw.com/shaonvwenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"其他文库\",\"url\":\"https://www.yoduzw.com/qitawenku/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+    "lastUpdateTime": 1708245107583,
+    "loginUrl": "https://www.yodu.org/login.php",
+    "respondTime": 4957,
+    "ruleBookInfo": {
+      "author": "class.mr15 ttl@a@text",
+      "coverUrl": "class.g_thumb@img@src",
+      "intro": "class.h112 mb15 det-abt lh1d8 c_strong fs16 hm-scroll@html",
+      "kind": "class.mr15 ttc hisp@text",
+      "lastChapter": "class.ell lst-chapter dib vam@text",
+      "name": "class.mb15 lh1d2 oh@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@html##（本章未完）",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "class.vam mr10.1@text||class.c_small mb5 mr15 ell ttc fs16.0@text",
+      "bookList": "class.ser-ret@li||class.j_bookList@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@_src",
+      "kind": "class.vam mr10.0@text&&tag.span.2@text&&class.c_small mb5 mr15 ell ttc fs16.1@text",
+      "lastChapter": "class.vam@a@text",
+      "name": "h3@text||h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yodu.org/sa/all-{{key}}-{{page}}.html",
+    "weight": 0
+  }

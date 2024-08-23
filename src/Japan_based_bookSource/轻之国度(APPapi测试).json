@@ -1,0 +1,63 @@
+{
+    "bookSourceComment": "https://api.lightnovel.us/api/article/get-detail,{\"method\":\"POST\",\"body\":\"{\\\"platform\\\":\\\"android\\\",\\\"client\\\":\\\"app\\\",\\\"sign\\\":\\\"\\\",\\\"ver_name\\\":\\\"0.11.50\\\",\\\"ver_code\\\":190,\\\"d\\\":{\\\"aid\\\":1103082,\\\"simple\\\":0},\\\"gz\\\":0}\"}\n\n\naid==正文\nhttps://www.lightnovel.us/detail/1103082\n\n\n\nhttps://api.lightnovel.us/api/series/get-info,{\"method\":\"POST\",\"body\":\"{\\\"platform\\\":\\\"android\\\",\\\"client\\\":\\\"app\\\",\\\"sign\\\":\\\"\\\",\\\"ver_name\\\":\\\"0.11.5\\\",\\\"ver_code\\\":190,\\\"d\\\":{\\\"sid\\\":2531,\\\"security_key\\\":null},\\\"gz\\\":0}\"}\n\n\nsid==详情\nhttps://www.lightnovel.us/cn/series/1025\n\n\n\n\n1103082\n1101423\n\napp\n1095595",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "轻之国度(APPapi测试)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lightnovel.us##APP",
+    "bookUrlPattern": "https://api.lightnovel.us/.*",
+    "customOrder": -88951554,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"最新\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"106\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"整卷\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"107\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"原创\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"111\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1708253806889,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "$.data.author##\\{uid.*##",
+      "coverUrl": "$.data.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}@js:result.replace(/cover_h/,'cover_v')",
+      "init": "",
+      "intro": "$..intro",
+      "kind": "",
+      "lastChapter": "@js:if('{{$..articles[0].order}}'==0){}else{p='{{$..articles[-1].order}}'.replace(/00$/,'');id = p<=10?'0'+p:p;'P'+id+'\\u2000'+java.getString('$..articles[-1].title')}",
+      "name": "$.data.name||$..title",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "$..content&&$..res\n<js>\na=/\\[[a-z]+=[^\\]]+\\]|\\[\\/(?!res|img)[a-z]+\\]|\\[b\\]/g\nresult.replace(a,'')\n</js>\n<js>\nif(result.match(/\\[\\/img\\]/)){result}else{\nr=result.match(/[\\d,]+={resid=.*?url=.*?}/g)\nlist=[]\nfor (x in r){\nn=r[x].match(/^,?(.*?)=/)[1].replace(/\\s*/,'')\nm=r[x].match(/url=(.*)}/)[1];\nvar b=new RegExp(n,'g')\nresult=result.replace(b,m)\n}\nresult.replace(/{ids=\\[.*}/,'')\n}\n</js>\n<js>\nlet options = {\n\"headers\": {\"Referer\": \"https://www.lightnovel.us\"}\n};\nt=JSON.stringify(options)\n\nresult.replace(/\\[img\\](.*?)\\[\\/img\\]/g,'<img src=\"'+'$1,'+t+'\">').replace(/\\[res\\](.*?)\\[\\/res\\]/g,'<img src=\"'+'$1,'+t+'\">')\n\n</js>",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$..list[*]",
+      "bookUrl": "<js>\na=java.getString('$.sid')\nb=java.getString('$.aid')\nif(a!=0){\t\nbody='{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.50\",\"ver_code\":190,\"d\":{\"sid\":'+a+',\"security_key\":null},\"gz\":0}'\nlet option = \t{\n'method': 'POST',\n'body': String(body)\n}\n'https://api.lightnovel.us/api/series/get-info'+','+JSON.stringify(option)\n}else{\t\t\nbody='{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.50\",\"ver_code\":190,\"d\":{\"aid\":'+b+',\"simple\":0},\"gz\":0}'\nlet option = {\n'method': 'POST',\n'body': String(body)\n}\n'https://api.lightnovel.us/api/article/get-detail'+','+JSON.stringify(option)\n}\n</js>",
+      "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
+      "intro": "",
+      "kind": "$.last_time",
+      "lastChapter": "",
+      "name": "$.title",
+      "wordCount": "@js:('{{$.sid}}'!=0)?\"合集\":\"\""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "<js>\nxs=result.match(/\"sid\":\\d+/g)\nxd=String(xs).replace(/\"sid\":/g,'')\nxf=xd.match(/\\d+/g)\n\nlet arr=xf\nlet lyu=arr.filter(function(currentValue,currentIndex,array){\n\treturn array.indexOf(currentValue)===currentIndex && currentValue!=0\n})\n\nresult=result.replace(/(\"sid\":)(0,)/g,'$1'+'#'+'$2')\n\nlist=[]\n\tfor(x in lyu){\n\t\t\n\t\tre=new RegExp('('+'\\\\b'+lyu[x]+'\\\\b'+')','')\n\t\t\n   result=result.replace(re,'#'+'$1')\n   \n}\nresult.replace(/(\"sid\":)(?!#)\\d+/g,'$1'+'0')\n</js>\n$..data.collections[*]&&$..data.articles[*]",
+      "bookUrl": "<js>\nxu=java.getString('$.sid')\n\na=String(xu).replace(/\\#/,'')\nb=java.getString('$.aid')\nif(a!=0){\t\nbody='{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.5.'+Math.random()+'\",\"ver_code\":190,\"d\":{\"sid\":'+a+',\"security_key\":null},\"gz\":0}'\nlet option = \t{\n'method': 'POST',\n'body': String(body)\n}\n'https://api.lightnovel.us/api/series/get-info'+','+JSON.stringify(option)\n}else{\t\t\nbody='{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.50\",\"ver_code\":190,\"d\":{\"aid\":'+b+',\"simple\":0},\"gz\":0}'\nlet option = {\n'method': 'POST',\n'body': String(body)\n}\n'https://api.lightnovel.us/api/article/get-detail'+','+JSON.stringify(option)\n}\n</js>",
+      "checkKeyWord": "",
+      "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
+      "kind": "$.group_name&&parent_group_name&&$.last_time&&$.time",
+      "lastChapter": "",
+      "name": "$.name||$.title@js:\n(/#\\d+/).test('{{$.sid}}')?result:''",
+      "wordCount": "@js:('{{$.sid}}'!='#0')?\"合集\":\"\""
+    },
+    "ruleToc": {
+      "chapterList": "$.data.articles\n<js>\n(/series/).test(baseUrl)?result:[{'$.*':'01','$.aid':baseUrl}]\n</js>",
+      "chapterName": "$.*@js:p='{{$.order}}'.replace(/00$/,'');id = p<=10?'0'+p:p;'P'+id+'\\u2000'+java.getString('$.title')",
+      "chapterUrl": "<js>\na=java.getString('$.aid')\nif(a!=0){\nbody='{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.50\",\"ver_code\":190,\"d\":{\"aid\":'+a+',\"simple\":0},\"gz\":0}'\nlet option = {\n'method': 'POST',\n'body': String(body)\n}\n'https://api.lightnovel.us/api/article/get-detail'+','+JSON.stringify(option)\n}\n</js>",
+      "updateTime": "$.time"
+    },
+    "searchUrl": "https://www.lightnovel.us/proxy/api/search/search-result,{\n'method': 'POST',\n'body': '{\"platform\":\"android\",\"client\":\"app\",\"sign\":\"\",\"ver_name\":\"0.11.50\",\"ver_code\":190,\"d\":{\"q\":\"{{key}}\",\"type\":0,\"page\":{{page}},\"page_size\":20},\"gz\":0}'\n}",
+    "weight": 0
+  }

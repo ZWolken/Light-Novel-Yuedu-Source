@@ -1,0 +1,54 @@
+
+  {
+    "bookSourceComment": "可登录\n整理修改：GitHub@ZWolken",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "神凑轻小说(www)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shencou.com",
+    "bookUrlPattern": "",
+    "customOrder": -88951557,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{'title':'文库分类','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'电击文库','url':'/modules/article/articlelist.php?class=1&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'富士见文库','url':'/modules/article/articlelist.php?class=2&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'角川文库','url':'/modules/article/articlelist.php?class=3&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'MFJ文库','url':'/modules/article/articlelist.php?class=4&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'Fami通文库','url':'/modules/article/articlelist.php?class=5&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'GA文库','url':'/modules/article/articlelist.php?class=6&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'HJ文库','url':'/modules/article/articlelist.php?class=7&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'一迅社','url':'/modules/article/articlelist.php?class=8&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'集英社','url':'/modules/article/articlelist.php?class=9&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'少女文库','url':'/modules/article/articlelist.php?class=10&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'SF文库','url':'/modules/article/articlelist.php?class=11&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'讲谈社','url':'/modules/article/articlelist.php?class=12&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'榜单列表','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'总排行榜','url':'/modules/article/toplist.php?sort=allvisit&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总推荐榜','url':'/modules/article/toplist.php?sort=allvote&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月排行榜','url':'/modules/article/toplist.php?sort=monthvisit&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月推荐榜','url':'/modules/article/toplist.php?sort=monthvote&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'周排行榜','url':'/modules/article/toplist.php?sort=weekvisit&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'周推荐榜','url':'/modules/article/toplist.php?sort=weekvote&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'最新入库','url':'/modules/article/toplist.php?sort=postdate&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'最近更新','url':'/modules/article/toplist.php?sort=lastupdate&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'原创更新','url':'/modules/article/toplist.php?sort=authorupdate&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'转载更新','url':'/modules/article/toplist.php?sort=masterupdate&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总收藏榜','url':'/modules/article/toplist.php?sort=goodnum&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'字数排行','url':'/modules/article/toplist.php?sort=size&page={{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+    "header": "{\n\t\"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; V1981A Build/RP1A.200720.012;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.79 Mobile Safari/537.36\",\n\"Referer\":\"http://www.shencou.com/\"\n}",
+    "lastUpdateTime": 1708243718924,
+    "loginUrl": "http://www.shencou.com/login.php",
+    "respondTime": 2839,
+    "ruleBookInfo": {
+      "coverUrl": "@css:#content table tr:nth-of-type(3) table tr td:nth-of-type(2) img@src",
+      "init": "",
+      "intro": "@css:#content table tr:nth-of-type(3) table tr td:nth-of-type(2)@html##.+内容简介：\\s*(.+)本书公告：.+##$1",
+      "tocUrl": "@css:.btnlink:contains(开始阅读)@href"
+    },
+    "ruleContent": {
+      "content": "body@textNodes"
+    },
+    "ruleExplore": {
+      "author": "@css:p:contains(作者：)@text##.+作者：(\\S+).+##$1",
+      "bookList": "@css:#content td > div",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\.html/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "tag.p.3@text",
+      "kind": "tag.p.0@text&&tag.p.1@text<js>\nresult.replace(/.+来自\\s*|(更新时间|全文长度)/g, '').replace(/-\\s+-\\s+/g, ',').replace(/：/g, '')\n</js>",
+      "lastChapter": "class.news@tag.a@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.content@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\.html/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.td.-1@text&&tag.td.-2@text&&tag.td.-3@text",
+      "lastChapter": "tag.td.1@tag.a@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist4@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename+selected&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }

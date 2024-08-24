@@ -1,4 +1,4 @@
-name: Feature Request or Enhancement
+name: Request New Website Adaption
 description: 对新网站适配的请求
 title: "[Feature] "
 labels: ["triage"]
@@ -7,7 +7,7 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Checklist
+      label: 检查清单
       description: 如果你的问题是重复的，将不会被回复直接关闭。
       options:
         - label: 我已经阅读了[docs/websites.md](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/websites.md)，但这个网站不在其中。

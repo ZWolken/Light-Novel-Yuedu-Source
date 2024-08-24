@@ -1,0 +1,67 @@
+name: Bug Report
+description: 反馈Bug
+title: "[Bug] "
+labels: ["triage"]
+body:
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 如果你的问题是重复的，将不会被回复直接关闭。
+      options:
+        - label: 我正在使用最新发行版的书源，没有使用过时的。
+          required: true
+        - label: 我的问题从未被其他人提及过，且不是重复的。
+          required: true
+
+  - type: textarea
+    id: bug
+    attributes:
+      label: 描述
+      description: 请对这个bug进行简短且清晰的描述。
+    validations:
+      required: true
+
+  - type: textarea
+    id: step
+    attributes:
+      label: 复现步骤
+      description: 请提供必要的复现行为的步骤。
+    validations:
+      required: true
+
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期行为
+      description: 请描述此bug的预期行为。
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图
+      description: 如有必要，请在这里添加截图以帮助解释您的问题。
+
+  - type: input
+    id: legado_ver
+    attributes:
+      label: 书源版本
+      placeholder: "Example: 3.25"
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: 日志Log
+      description: 请提供书源的日志文件。
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 其他信息
+      description: 在这里输入任何其他相关信息。

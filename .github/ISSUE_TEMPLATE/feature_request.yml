@@ -1,0 +1,32 @@
+name: Feature Request or Enhancement
+description: 对新网站适配的请求
+title: "[Feature] "
+labels: ["triage"]
+body:
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: 如果你的问题是重复的，将不会被回复直接关闭。
+      options:
+        - label: 我已经阅读了[docs/websites.md](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/websites.md)，但这个网站不在其中。
+          required: true
+        - label: 这个网站没有被其他人提及过，且不是重复的。
+          required: true
+
+  - type: textarea
+    id: website
+    attributes:
+      label: 网站名称和网址
+      description: 请提供这个网站的名称和网址。
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 网站细节
+      description: 请提供其他网站的细节，例如是否需要登录，归属日轻、国轻还是日原？
+    validations:
+      required: true

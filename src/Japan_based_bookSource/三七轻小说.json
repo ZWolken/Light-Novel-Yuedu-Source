@@ -1,61 +1,62 @@
-
-    {
-        "bookSourceGroup": "",
-        "bookSourceComment": "编写人员：GitHub@gongfuture\n不强制登录（目前）",
-        "bookSourceName": "三七轻小说",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.37yq.com",
-        "customOrder": 0,
-        "enabled": true,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "[{'title':'全站总榜','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'总点击榜','url':'/top/allvisit/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总推荐榜','url':'/top/allvote/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总鲜花榜','url':'/top/allflower/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月点击榜','url':'/top/monthvisit/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月推荐榜','url':'/top/monthvote/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月鲜花榜','url':'/top/monthflower/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'最近更新','url':'/top/lastupdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'最新入库','url':'/top/postdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'收藏榜','url':'/top/goodnum/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'字数榜','url':'/top/words/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新书榜','url':'/top/postdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'全部文库','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}}]",
-        "lastUpdateTime": 0,
-        "loginUrl": "https://www.37yq.com/login.php",
-        "respondTime": 180000,
-        "ruleBookInfo": {
-            "author": "class.au-name@text",
-            "coverUrl": "class.book-img fl@tag.img@src",
-            "intro": "class.book-dec Jbook-dec hide@p@text",
-            "kind": "class.book-label@children@text",
-            "lastChapter": "class.tit fl.0@text",
-            "name": "class.book-name@text",
-            "tocUrl": "class.btn read-btn@href",
-            "wordCount": "class.nums@tag.i.1@text"
-        },
-        "ruleContent": {
-            "content": "id.TextContent@text&&class.divimage@tag.img@all",
-            "title": "id.mlfy_main_text@h1@text",
-            "sourceRegex": "/files.*"
-        },
-        "ruleExplore": {
-            "author": "class.rank_d_b_cate@tag.a.0@text",
-            "bookList": "class.rank_d_list borderB_c_dsh clearfix",
-            "bookUrl": "class.rank_d_b_name@a@href||class.rank_d_book_img fl@a@href",
-            "coverUrl": "class.rank_d_book_img fl@a.0@tag.img.0@data-original",
-            "intro": "class.rank_d_b_info@text",
-            "kind": "class.rank_d_b_cate@tag.a.[1:]@text",
-            "lastChapter": "class.rank_d_b_last@class.fl@a.0@text##最新章节",
-            "name": "class.rank_d_b_name@tag.a.0@text"
-        },
-        "ruleReview": {},
-        "ruleSearch": {
-            "author": "class.bookinfo@a.0@text",
-            "bookList": "class.search-result-list clearfix",
-            "bookUrl": "class.btn@a.0@href||class.tit@a.0@href||class.imgbox fl se-result-book@a.0@href",
-            "checkKeyWord": "",
-            "coverUrl": "class.imgbox fl se-result-book@a.0@tag.img.0@src",
-            "intro": "class.fl se-result-infos@p.0@text",
-            "kind": "class.bookinfo@a.1@text%%class.bookinfo@span.0@text",
-            "name": "class.tit@a.0@text",
-            "wordCount": "class.bookinfo@tag.span.1@all##\\D+"
-        },
-        "ruleToc": {
-            "chapterList": "class.col-4",
-            "chapterName": "class.col-4@a@text",
-            "chapterUrl": "class.col-4@a@href",
-            "isVolume": "class.v-line@text"
-        },
-        "searchUrl": "https://www.37yq.com/so.html?searchkey={{key}}&page={{page}}&searchtype=all",
-        "weight": 0
-    }
+[
+  {
+    "bookSourceGroup": "",
+    "bookSourceComment": "编写人员：GitHub@gongfuture\n不强制登录（目前）",
+    "bookSourceName": "三七轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.37yq.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "[{'title':'全站总榜','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'总点击榜','url':'/top/allvisit/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总推荐榜','url':'/top/allvote/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'总鲜花榜','url':'/top/allflower/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月点击榜','url':'/top/monthvisit/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月推荐榜','url':'/top/monthvote/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月鲜花榜','url':'/top/monthflower/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'最近更新','url':'/top/lastupdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'最新入库','url':'/top/postdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.4}},\n{'title':'收藏榜','url':'/top/goodnum/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'字数榜','url':'/top/words/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新书榜','url':'/top/postdate/{{page}}.html','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'全部文库','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}}]",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.37yq.com/login.php",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.au-name@text",
+      "coverUrl": "class.book-img fl@tag.img@src",
+      "intro": "class.book-dec Jbook-dec hide@p@text",
+      "kind": "class.book-label@children@text",
+      "lastChapter": "class.tit fl.0@text",
+      "name": "class.book-name@text",
+      "tocUrl": "class.btn read-btn@href",
+      "wordCount": "class.nums@tag.i.1@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@text&&class.divimage@tag.img@all",
+      "title": "id.mlfy_main_text@h1@text",
+      "sourceRegex": "/files.*"
+    },
+    "ruleExplore": {
+      "author": "class.rank_d_b_cate@tag.a.0@text",
+      "bookList": "class.rank_d_list borderB_c_dsh clearfix",
+      "bookUrl": "class.rank_d_b_name@a@href||class.rank_d_book_img fl@a@href",
+      "coverUrl": "class.rank_d_book_img fl@a.0@tag.img.0@data-original",
+      "intro": "class.rank_d_b_info@text",
+      "kind": "class.rank_d_b_cate@tag.a.[1:]@text",
+      "lastChapter": "class.rank_d_b_last@class.fl@a.0@text##最新章节",
+      "name": "class.rank_d_b_name@tag.a.0@text"
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "class.bookinfo@a.0@text",
+      "bookList": "class.search-result-list clearfix",
+      "bookUrl": "class.btn@a.0@href||class.tit@a.0@href||class.imgbox fl se-result-book@a.0@href",
+      "checkKeyWord": "",
+      "coverUrl": "class.imgbox fl se-result-book@a.0@tag.img.0@src",
+      "intro": "class.fl se-result-infos@p.0@text",
+      "kind": "class.bookinfo@a.1@text%%class.bookinfo@span.0@text",
+      "name": "class.tit@a.0@text",
+      "wordCount": "class.bookinfo@tag.span.1@all##\\D+"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-4",
+      "chapterName": "class.col-4@a@text",
+      "chapterUrl": "class.col-4@a@href",
+      "isVolume": "class.v-line@text"
+    },
+    "searchUrl": "https://www.37yq.com/so.html?searchkey={{key}}&page={{page}}&searchtype=all",
+    "weight": 0
+  }
+]

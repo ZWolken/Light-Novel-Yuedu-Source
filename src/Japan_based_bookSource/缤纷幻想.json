@@ -1,4 +1,5 @@
-{
+[
+  {
     "bookSourceComment": "日轻，国轻\n整理修改：GitHub@ZWolken",
     "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
     "bookSourceName": "缤纷幻想",
@@ -51,3 +52,4 @@
     "searchUrl": "/module/novel/search.php?type=1&key={{key}}&page={{page}}",
     "weight": 0
   }
+]

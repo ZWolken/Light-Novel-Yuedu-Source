@@ -1,4 +1,5 @@
-{
+[
+  {
     "bookSourceComment": "整理：GitHub@ZWolken",
     "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
     "bookSourceName": "铅笔小说.net(废弃)",
@@ -50,3 +51,4 @@
     "searchUrl": "https://www.23qb.com/saerch.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=all\"\n}",
     "weight": 0
   }
+]

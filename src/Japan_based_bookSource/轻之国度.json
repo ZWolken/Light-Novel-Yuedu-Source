@@ -1,58 +1,59 @@
-
-    {
-        "bookSourceComment": "不完善，请注意使用方法\n整理修改：GitHub@ZWolken\n原作者：酷安 转义字符\n发现规则原作者：酷安 金01461",
-        "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
-        "bookSourceName": "轻之国度",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.lightnovel.us",
-        "bookUrlPattern": "https://www.lightnovel.us(/cn)?/(series|detail)/\\d+",
-        "customOrder": -88951555,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": true,
-        "exploreUrl": "[{\"title\":\"最新\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"106\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"整卷\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"107\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"原创\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"111\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}}]",
-        "header": "",
-        "lastUpdateTime": 1698166064217,
-        "loginUrl": "https://www.lightnovel.us/",
-        "respondTime": 180000,
-        "ruleBookInfo": {
-          "author": "",
-          "coverUrl": "div.collection-cover@style##url\\((.*?)\\)##$1,{headers:{Referer:\"{{baseUrl}}\"}}###",
-          "init": "",
-          "intro": "class.intro fs-xs say@text",
-          "kind": "",
-          "name": "h3@text||h2@text"
-        },
-        "ruleContent": {
-          "content": "id.article-main-contents@html\n<js>\nlet options = {\n\"headers\": {\"Referer\": \"https://www.lightnovel.us\"}\n};\nt=JSON.stringify(options)\nresult.replace(/(src=\"[^\"]+)/g,'$1,'+t)\n</js>"
-        },
-        "ruleExplore": {
-          "author": "$.author",
-          "bookList": "$..list[*]",
-          "bookUrl": "<js>\na=java.getString('$.aid')\nb=java.getString('$.sid')\n!(a==0)?'https://www.lightnovel.us/cn/detail/'+parseInt(a):'https://www.lightnovel.us/cn/series/'+parseInt(b)\n</js>",
-          "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
-          "kind": "$.last_time",
-          "lastChapter": "",
-          "name": "$.title",
-          "wordCount": "@js:('{{$.sid}}'!=0)?\"合集\":\"\""
-        },
-        "ruleReview": {},
-        "ruleSearch": {
-          "author": "$.author",
-          "bookList": "<js>\nr=result.match(/window.__NUXT__=(.*\\)\\));/)[1]\neval(r)\n</js>\n$..data\n<js>\n'{\"data\":'+result+'}'\n</js>\n$..collections[*]&&$..articles[*]",
-          "bookUrl": "<js>\na=java.getString('$.aid')\nb=java.getString('$.sid')\n!(a==0)?'https://www.lightnovel.us/cn/detail/'+parseInt(a):'https://www.lightnovel.us/cn/series/'+parseInt(b)\n</js>",
-          "checkKeyWord": "",
-          "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
-          "kind": "$.group_name&&parent_group_name&&$.last_time&&$.time",
-          "name": "$.name||$.title",
-          "wordCount": "@js:('{{$.sid}}'!=0)?\"合集\":\"\""
-        },
-        "ruleToc": {
-          "chapterList": "<js>\nr=result.match(/window.__NUXT__=(.*\\)\\));/)[1]\nv=eval(r)\n</js>\n$..data\n<js>\n'{\"data\":'+result+'}'\n</js>\n$..articles[*]\n<js>\nif(baseUrl.match(/series/)){\n\t result\n\t}else{\n\t\t list=[]\n\t\t list. push({'$.title':'01','$.aid':baseUrl})\n\t\t list\n\t\t}\n</js>",
-          "chapterName": "$.title",
-          "chapterUrl": "$.aid##\\.0\n<js>\n!(/http/).test(result)?'https://www.lightnovel.us/cn/detail/'+result:result\n</js>",
-          "updateTime": "$.time"
-        },
-        "searchUrl": "https://www.lightnovel.us/search?keywords={{key}}",
-        "weight": 0
-      }
+[
+  {
+    "bookSourceComment": "不完善，请注意使用方法\n整理修改：GitHub@ZWolken\n原作者：酷安 转义字符\n发现规则原作者：酷安 金01461",
+    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceName": "轻之国度",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lightnovel.us",
+    "bookUrlPattern": "https://www.lightnovel.us(/cn)?/(series|detail)/\\d+",
+    "customOrder": -88951555,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最新\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"106\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"整卷\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"107\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}},{\"title\":\"原创\",\"url\":\"https://www.lightnovel.us/proxy/api/category/get-article-by-cate,{\\\"method\\\":\\\"POST\\\",\\\"body\\\":\\\"{\\\\\\\"is_encrypted\\\\\\\":0,\\\\\\\"platform\\\\\\\":\\\\\\\"pc\\\\\\\",\\\\\\\"client\\\\\\\":\\\\\\\"web\\\\\\\",\\\\\\\"sign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"gz\\\\\\\":0,\\\\\\\"d\\\\\\\":{\\\\\\\"parent_gid\\\\\\\":3,\\\\\\\"gid\\\\\\\":\\\\\\\"111\\\\\\\",\\\\\\\"page\\\\\\\":\\\\\\\"{{page}}\\\\\\\"}}\\\"}\",\"style\":{\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1698166064217,
+    "loginUrl": "https://www.lightnovel.us/",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "div.collection-cover@style##url\\((.*?)\\)##$1,{headers:{Referer:\"{{baseUrl}}\"}}###",
+      "init": "",
+      "intro": "class.intro fs-xs say@text",
+      "kind": "",
+      "name": "h3@text||h2@text"
+    },
+    "ruleContent": {
+      "content": "id.article-main-contents@html\n<js>\nlet options = {\n\"headers\": {\"Referer\": \"https://www.lightnovel.us\"}\n};\nt=JSON.stringify(options)\nresult.replace(/(src=\"[^\"]+)/g,'$1,'+t)\n</js>"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$..list[*]",
+      "bookUrl": "<js>\na=java.getString('$.aid')\nb=java.getString('$.sid')\n!(a==0)?'https://www.lightnovel.us/cn/detail/'+parseInt(a):'https://www.lightnovel.us/cn/series/'+parseInt(b)\n</js>",
+      "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
+      "kind": "$.last_time",
+      "lastChapter": "",
+      "name": "$.title",
+      "wordCount": "@js:('{{$.sid}}'!=0)?\"合集\":\"\""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "<js>\nr=result.match(/window.__NUXT__=(.*\\)\\));/)[1]\neval(r)\n</js>\n$..data\n<js>\n'{\"data\":'+result+'}'\n</js>\n$..collections[*]&&$..articles[*]",
+      "bookUrl": "<js>\na=java.getString('$.aid')\nb=java.getString('$.sid')\n!(a==0)?'https://www.lightnovel.us/cn/detail/'+parseInt(a):'https://www.lightnovel.us/cn/series/'+parseInt(b)\n</js>",
+      "checkKeyWord": "",
+      "coverUrl": "$.cover##$##,{\"headers\":{\"Referer\":\"https://www.lightnovel.us\"}}",
+      "kind": "$.group_name&&parent_group_name&&$.last_time&&$.time",
+      "name": "$.name||$.title",
+      "wordCount": "@js:('{{$.sid}}'!=0)?\"合集\":\"\""
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nr=result.match(/window.__NUXT__=(.*\\)\\));/)[1]\nv=eval(r)\n</js>\n$..data\n<js>\n'{\"data\":'+result+'}'\n</js>\n$..articles[*]\n<js>\nif(baseUrl.match(/series/)){\n\t result\n\t}else{\n\t\t list=[]\n\t\t list. push({'$.title':'01','$.aid':baseUrl})\n\t\t list\n\t\t}\n</js>",
+      "chapterName": "$.title",
+      "chapterUrl": "$.aid##\\.0\n<js>\n!(/http/).test(result)?'https://www.lightnovel.us/cn/detail/'+result:result\n</js>",
+      "updateTime": "$.time"
+    },
+    "searchUrl": "https://www.lightnovel.us/search?keywords={{key}}",
+    "weight": 0
+  }
+]

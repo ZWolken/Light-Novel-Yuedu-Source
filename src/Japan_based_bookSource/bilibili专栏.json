@@ -1,4 +1,5 @@
-{
+[
+  {
     "bookSourceComment": "",
     "bookSourceGroup": "bilibili专栏,日轻小说(2024-2-18)\nGitHub@ZWolken",
     "bookSourceName": "bilibili专栏[切换专用分组搜索]",
@@ -48,3 +49,4 @@
     "searchUrl": "https://app.bilibili.com/x/v2/search/type?build=6660500&keyword={{key}}&pn={{page}}&ps=20&type=6",
     "weight": 0
   }
+]

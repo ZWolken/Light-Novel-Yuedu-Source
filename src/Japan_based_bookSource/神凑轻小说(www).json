@@ -1,4 +1,4 @@
-
+[
   {
     "bookSourceComment": "可登录\n整理修改：GitHub@ZWolken",
     "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
@@ -52,3 +52,4 @@
     "searchUrl": "/modules/article/search.php?searchtype=articlename+selected&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   }
+]

@@ -1,4 +1,5 @@
-{
+[
+  {
     "bookSourceComment": "登录后才可搜索\n整理修改：GitHub@ZWolken",
     "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
     "bookSourceName": "有度轻小说",
@@ -44,3 +45,4 @@
     "searchUrl": "https://www.yodu.org/sa/all-{{key}}-{{page}}.html",
     "weight": 0
   }
+]

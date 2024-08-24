@@ -1,4 +1,5 @@
-{
+[
+  {
     "bookSourceComment": "缝合怪QAQ\n网页版\n可搜索\n发现较全\n可以自己加东西\n有一些书无权限看不了\n（貌似能登录∑(O_O；)）",
     "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
     "bookSourceName": "哔哩轻小说(www)",
@@ -60,3 +61,4 @@
     "searchUrl": "https://www.linovelib.com/S6/,{\n\t\"charset\":\"\",\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}&searchtype=all&page={{page}}\"\n\t} ",
     "weight": 0
   }
+]

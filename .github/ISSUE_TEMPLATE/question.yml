@@ -23,21 +23,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: legado_ver
-    attributes:
-      label: 书源版本
-      placeholder: "Example: 3.25"
-    validations:
-      required: true
-
-  - type: textarea
-    id: log
-    attributes:
-      label: 日志Log
-      description: 请提供书源的日志文件。
-      render: shell
-
   - type: textarea
     id: context
     attributes:

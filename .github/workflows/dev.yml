@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
@@ -27,7 +27,7 @@ jobs:
         python src/scripts/booksource_combine/booksource_combine.py
 
     - name: Upload booksource JSON
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: booksource-json-files
         path: src/BookSource/build/*.json

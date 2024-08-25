@@ -24,7 +24,7 @@ jobs:
 
     - name: Run booksource_combine script
       run: |
-        python src/Scripts/booksource_combine/booksource_combine.py
+        python src/scripts/booksource_combine/booksource_combine.py
 
     - name: Upload booksource JSON
       uses: actions/upload-artifact@v2

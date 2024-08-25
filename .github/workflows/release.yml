@@ -3,7 +3,7 @@ name: Release BookSource JSON
 on:
   push:
     tags:
-      - '*-*-*'
+      - 'v*-*-*'
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
   
     - name: Extract tag name
       id: extract_tag
-      run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+      run: echo "TAG_NAME=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
 
     - name: Create Release
       id: create_release

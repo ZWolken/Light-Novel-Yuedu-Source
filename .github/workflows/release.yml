@@ -36,7 +36,7 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')
       with:
         files: src/BookSource/build/*.json
-        tag_name: ${{ env.TAG_NAME }}
+        tag_name: v${{ env.TAG_NAME }}
         name: BookSource_${{ env.TAG_NAME}}
         draft: false
         prerelease: false

@@ -26,13 +26,17 @@ jobs:
       run: |
         python src/scripts/booksource_combine/booksource_combine.py
 
+    - name: Extract tag name
+      id: extract_tag
+      run: echo "TAG_NAME=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v1
       with:
         files: src/BookSource/build/*.json
         tag_name: ${{ github.ref }}
-        release_name: BookSource_${{ github.ref_name  }}
+        release_name: BookSource_${{ env.TAG_NAME }}
         draft: false
         prerelease: false
       env:

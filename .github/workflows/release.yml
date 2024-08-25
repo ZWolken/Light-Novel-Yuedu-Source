@@ -32,7 +32,7 @@ jobs:
       with:
         files: src/BookSource/build/*.json
         tag_name: ${{ github.ref }}
-        release_name: BookSource_${{ github.ref }}
+        release_name: BookSource_${{ github.ref_name  }}
         draft: false
         prerelease: false
       env:

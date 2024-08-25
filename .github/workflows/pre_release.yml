@@ -40,6 +40,7 @@ jobs:
         name: BookSource_${{ env.TAG_NAME}}
         draft: false
         prerelease: true
-        make_latest: true
+        make_latest: false
+        generate_release_notes: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,16 +1,16 @@
-name: Question
+name: \\[Question\\] 问题提出
 description: 我有需要帮助的问题
 title: "[Question] "
-labels: ["triage"]
+labels: ["Question"]
 body:
 
   - type: checkboxes
     id: checklist
     attributes:
       label: 检查清单
-      description: 如果你的问题是重复的，将不会被回复直接关闭。
+      description: 如果你的问题是重复的，将不会被回复并直接关闭。
       options:
-        - label: 我已经阅读了[docs/questions.md](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/questions.md)，但没能回答我的问题。
+        - label: 我已经阅读了[Q&A清单](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/questions.md)，但依然没能得到解答。
           required: true
         - label: 我的问题没有被其他人提及过，且不是重复的。
           required: true

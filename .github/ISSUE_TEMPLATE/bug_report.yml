@@ -44,25 +44,12 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: error_occurred
-    attributes:
-      label: 软件是否有报错？
-      options:
-        - "是"
-        - "否"
-
   - type: textarea
     id: log
     attributes:
       label: 日志Log
       description: 请提供含报错的阅读APP日志文件。
       render: shell
-    validations:
-      required: true
-    conditions:
-      - id: error_occurred
-        value: "是"
 
   - type: textarea
     id: context

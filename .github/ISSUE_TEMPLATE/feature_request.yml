@@ -1,0 +1,41 @@
+name: Request Adaptation 新网站适配请求
+description: 创建一个issue来请求对新网站进行适配
+title: "[Request] "
+labels: ["Request"]
+body:
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 在开始反馈前，请检查已有的issue：
+      description: 如果你的问题是重复的，将不会被回复并直接关闭。
+      options:
+        - label: 我已确定这个网站没有被其他人提及过，且不是重复的。
+          required: true
+        - label: 我已经阅读了[本项目书源已适配的网站清单](https://github.com/ZWolken/Light-Novel-Yuedu-Source/blob/main/docs/websites.md)，但这个网站不在其中。
+          required: true
+        - label: 这个网站属于轻小说及其衍生内容网站。
+          required: true
+
+  - type: textarea
+    id: website
+    attributes:
+      label: 网站名称和网址
+      description: 请提供这个网站的名称和网址。
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 网站细节
+      description: 请提供其他网站的细节，例如是否需要登录，归属日轻、国轻还是日原？
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 注意事项
+      description: 请注意：
+      options:
+        - label: 我已知晓该仓库维护者仅会在能力范围内进行网站适配，能力范围以外的可能不会进行适配。
+          required: true

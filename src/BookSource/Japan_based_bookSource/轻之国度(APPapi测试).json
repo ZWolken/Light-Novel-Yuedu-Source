@@ -1,7 +1,7 @@
 [
   {
     "bookSourceComment": "https://api.lightnovel.us/api/article/get-detail,{\"method\":\"POST\",\"body\":\"{\\\"platform\\\":\\\"android\\\",\\\"client\\\":\\\"app\\\",\\\"sign\\\":\\\"\\\",\\\"ver_name\\\":\\\"0.11.50\\\",\\\"ver_code\\\":190,\\\"d\\\":{\\\"aid\\\":1103082,\\\"simple\\\":0},\\\"gz\\\":0}\"}\n\n\naid==正文\nhttps://www.lightnovel.us/detail/1103082\n\n\n\nhttps://api.lightnovel.us/api/series/get-info,{\"method\":\"POST\",\"body\":\"{\\\"platform\\\":\\\"android\\\",\\\"client\\\":\\\"app\\\",\\\"sign\\\":\\\"\\\",\\\"ver_name\\\":\\\"0.11.5\\\",\\\"ver_code\\\":190,\\\"d\\\":{\\\"sid\\\":2531,\\\"security_key\\\":null},\\\"gz\\\":0}\"}\n\n\nsid==详情\nhttps://www.lightnovel.us/cn/series/1025\n\n\n\n\n1103082\n1101423\n\napp\n1095595",
-    "bookSourceGroup": "日轻小说(2024-2-18)\nGitHub@ZWolken",
+    "bookSourceGroup": "",
     "bookSourceName": "轻之国度(APPapi测试)",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.lightnovel.us##APP",

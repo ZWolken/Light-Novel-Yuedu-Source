@@ -1,0 +1,53 @@
+[
+    {
+        "bookSourceComment": "可登录\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "SF轻小说(m)",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.sfacg.com",
+        "bookUrlPattern": "",
+        "customOrder": -88951540,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"日轻\",\"url\":\"/rank/jp.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"首页推荐\",\"url\":\"/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"最近更新\",\"url\":\"/latelist\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"签约作品\",\"url\":\"/latelist/s\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"VIP作品\",\"url\":\"/vip/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"人气\",\"url\":\"/rank/original.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"畅销\",\"url\":\"/rank/sale.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"新书\",\"url\":\"/rank/new.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"收藏\",\"url\":\"/rank/bm.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"月票\",\"url\":\"/rank/ticket.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+        "lastUpdateTime": 1647024897341,
+        "loginUrl": "https://m.sfacg.com/login",
+        "respondTime": 1243,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "@js:result=java.get('intro');\n'<br>'+((result)?result:'想要获取更多书籍信息，请点击书籍的书名(・o・)');",
+            "tocUrl": "text.目录列表@href"
+        },
+        "ruleContent": {
+            "content": "div[style=text-indent: 2em;]@html@js:\nresult",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": {
+            "author": "tag.li.1@tag.div.-1@text##/.+||$.AuthorName",
+            "bookList": "@js:\nif(result.match(/book_bk_qs1/)){\nimportClass(org.jsoup.Jsoup);\nresult=Jsoup.parse(result);\nresult=result.select(\".book_bk_qs1 a:has(img)\");\n}\nelse{\nresult='{\"N\":'+result+'}';\nJSON.parse(decodeURIComponent(result)).N;\n}",
+            "bookUrl": "href||/i/{$.NovelID}/",
+            "coverUrl": "img@src||https://rs.sfacg.com/web/novel/images/NovelCover/Big/{$.NovelCover}",
+            "intro": "tag.li.0@text",
+            "kind": "tag.li.1@tag.div.-1@text##.+/||$.TypeName",
+            "name": "id.listtitle@textNodes||text||$.NovelName"
+        },
+        "ruleSearch": {
+            "author": "$.AuthorName",
+            "bookList": "$.Novels[0,1]",
+            "bookUrl": "/i/{$.NovelID}/",
+            "coverUrl": "https://rs.sfacg.com/web/novel/images/NovelCover/Big/{$.NovelCover}",
+            "intro": "@js:java.get('intro')",
+            "kind": "http://book.sfacg.com/Novel/{$.NovelID}/@js:\nimportClass(org.jsoup.Jsoup);\nresult=Jsoup.parse(java.ajax(result));\nvar intro=String(result.select(\".introduce\").text()).trim();\nvar last=result.select(\".chapter-title a\").text();\nvar tags=result.select(\".text-row:eq(0)\").text()\njava.put('intro',intro);\njava.put('last',last);\ntags=tags.match(/类型：(.*?)\\s字数：(.*?)字\\[(.*?)\\]\\s.*/);\ntags.shift();\ntags.join(',').replace(/已|中/,'');",
+            "lastChapter": "@js:java.get('last')",
+            "name": "$.NovelName"
+        },
+        "ruleToc": {
+            "chapterList": "+@js:\nvar list=[];\nvar url=result.match(/\\/c\\/\\d+\\//g);\nvar n1=new RegExp(/mulu\">(.+)<\\/d/g);\nvar n3=new RegExp(/href=\"\\/c\\/\\d+\\/\"><li>(.+?)<\\/l/g);\nvar n;var n_pre='';var n_sub;\nvar n_temp;\nvar t=-1;\nvar p=[];var p_tmp;\nvar i=-1;var i_tmp;\n//获取每卷的标题\nwhile((n_temp=n1.exec(result))!=null){\ni=i+1;\np.push({q:n_temp[1],w:n1.lastIndex});\n}\ni_tmp=i;\n\nwhile((n_temp=n3.exec(result))!=null){\n//获取每话的标题\nn_sub=n_temp[1];\n//判断VIP\nif((n_sub.match(/span/))!=null){\nn_sub=n_sub.match(/span>(.+)<\\/span><spa/)[1];n_sub='🔒'+n_sub;\n}\n//给每话的标题添加卷标题\nif(p[0]!=null){\ni=i_tmp;\np_tmp=p[i].w;\nwhile(p_tmp>n3.lastIndex){\ni=i-1;\np_tmp=p[i].w;\n}\nn_pre=p[i].q;\nn_pre=n_pre+' | ';\n}\n//保存数据到数组\nn=n_pre+n_sub;\nt=t+1;\nlist.push({k:n,v:url[t]});\n}\nlist;",
+            "chapterName": "k",
+            "chapterUrl": "v"
+        },
+        "searchUrl": "/API/HTML5.ashx?op=search&keyword={{key}}",
+        "weight": 0
+    }
+]

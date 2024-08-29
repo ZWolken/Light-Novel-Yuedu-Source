@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "ムーンライトノベルズ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://mnlt.syosetu.com/top/top/",
+        "bookUrlPattern": "https://novel18.syosetu.com/\\w*/",
+        "concurrentRate": "",
+        "customOrder": 6,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\n{\"title\": \"女性向け\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"新着女性向け作品一覧\",\"url\": \"https://mnlt.syosetu.com/search/search/search.php?order=new&nocgenre=2&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"小説PickUp！[女性向け]一覧\",\"url\": \"https://mnlt.syosetu.com/pickup/list/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"女性向けランキング[日間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[週間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[月間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[四半期]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"女性向けランキング[年間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/list/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬ\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"新着ＢＬ作品一覧\",\"url\": \"https://mnlt.syosetu.com/search/search/search.php?order=new&nocgenre=3&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"小説PickUp！[BL]一覧\",\"url\": \"https://mnlt.syosetu.com/pickup/listbl/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\": \"ＢＬランキング[日間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[週間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[月間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[四半期]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"ＢＬランキング[年間]\",\"url\": \"\",\"style\": {\"layout_flexGrow\": 0,\"layout_flexBasisPercent\": 1}},\n{\"title\": \"総合\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"短編\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"連載中\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\": \"完結済\",\"url\": \"https://mnlt.syosetu.com/rank/bllist/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n]",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+        "lastUpdateTime": 1645021979493,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info_inbox.1@a@text",
+            "init": "id.novel_contents",
+            "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+            "kind": "class.info_inbox.3@text",
+            "name": "id.title_s1@a@text",
+            "tocUrl": "id.novelindex_button.0@a@href",
+            "wordCount": "class.infotop.1@class.h3_right.0@text"
+        },
+        "ruleContent": {
+            "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "author": "class.pickupnovellist@tag.li.2@tag.a.0@text||tag.li.1@text##作者：",
+            "bookList": "class.ranking||class.pickupnovellist||class.novellist",
+            "bookUrl": "text.小説情報@href",
+            "intro": "class.pickup_ex@text||class.ex@text",
+            "kind": "class.novellist@tag.li.2@text&&class.keyword@text##([\\s\\S]+?/(?!小説情報))|/小説情報|キーワード： ",
+            "lastChapter": "class.ranking@tag.li.2@text&&class.novellist@class.attention@text&&class.novellist@tag.li.2@text##(総合ポイント：)|\\s|/[\\s\\S]+|([0-9,]+文字)",
+            "name": "class.pickup_title@tag.a.0@text||class.title@tag.a.0@text",
+            "wordCount": "class.ranking@tag.li.2@text||class.dummy@tag.li.3@text##([0-9,]+文字)##$1###"
+        },
+        "ruleSearch": {
+            "author": "class.novellist@tag.li.1@text##作者：",
+            "bookList": "class.novellist",
+            "bookUrl": "text.小説情報@href",
+            "intro": "class.ex@text",
+            "kind": "class.novellist@tag.li.2@text&&class.keyword@text##([\\s\\S]+?/(?!小説情報))|/小説情報|キーワード： ",
+            "lastChapter": "class.attention@text&&class.novellist@tag.li.2@text##(総合ポイント：)|\\s|/[\\s\\S]+",
+            "name": "class.title@tag.a.0@text",
+            "wordCount": "class.dummy@tag.li.3@text##([0-9,]+文字)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+            "chapterName": "tag.a@text||class.novel_title@text",
+            "chapterUrl": "tag.a@href||",
+            "nextTocUrl": "text.>@href",
+            "updateTime": "class.kaikou@text"
+        },
+        "searchUrl": "https://mnlt.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+        "weight": 0
+    }
+]

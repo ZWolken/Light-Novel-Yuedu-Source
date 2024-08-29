@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "API\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "鲸云轻小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://jyapi.jyacg.com",
+        "bookUrlPattern": "",
+        "customOrder": -88951539,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"最新更新\",\"url\":\"/web/book_room?channel=0&tag=zxgx&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"人气最高\",\"url\":\"/web/book_room?channel=0&tag=rqzg&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"人气最高\",\"url\":\"/web/book_room?channel=0&tag=rqzg&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"收藏最高\",\"url\":\"/web/book_room?channel=0&tag=sczd&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"收藏最高\",\"url\":\"/web/book_room?channel=0&tag=ypzg&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"打赏最多\",\"url\":\"/web/book_room?channel=0&tag=xlzg&page={{page}}&charge_type=&serial_status=\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+        "header": "",
+        "lastUpdateTime": 1644843976085,
+        "loginUrl": "",
+        "respondTime": 2641,
+        "ruleBookInfo": {
+            "author": "author",
+            "coverUrl": "cover_image",
+            "init": "data",
+            "intro": "intro",
+            "kind": "book_label##/##,",
+            "lastChapter": "new_section&&new_seciton_time##\\n##·",
+            "name": "name@put:{bid:id}",
+            "tocUrl": "/web/books/directory?books_id={{$.id}}",
+            "wordCount": "{{$.total_words}}万字"
+        },
+        "ruleContent": {
+            "content": "data.content##o:"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data",
+            "bookUrl": "/web/books/detail?id={{$.id}}",
+            "coverUrl": "cover_image",
+            "intro": "intro",
+            "kind": "labels.name&&serial_status",
+            "lastChapter": "<js>java.ajax('https://jyapi.jyacg.com/web/books/detail?id={{$.id}}')</js>data.new_section&&data.new_seciton_time##\\n##·",
+            "name": "name",
+            "wordCount": "{{$.total_words}}万字"
+        },
+        "ruleToc": {
+            "chapterList": "data[*].directory[*]",
+            "chapterName": "title",
+            "chapterUrl": "/web/books/read?page={{$.page}}&books_id=@get:{bid}"
+        },
+        "searchUrl": "/web/search?name={{key}}&page={{page}}&type=1",
+        "weight": 0
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "カクヨム",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://kakuyomu.jp",
+        "bookUrlPattern": "",
+        "customOrder": 10,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"総合\",\"url\":\"https://kakuyomu.jp/rankings/all/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"異世界ファンタジー\",\"url\":\"https://kakuyomu.jp/rankings/fantasy/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ファンタジー\",\"url\":\"https://kakuyomu.jp/rankings/action/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"SF\",\"url\":\"https://kakuyomu.jp/rankings/sf/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"恋愛\",\"url\":\"https://kakuyomu.jp/rankings/love_story/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ラブコメ\",\"url\":\"https://kakuyomu.jp/rankings/romance/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"現代ドラマ\",\"url\":\"https://kakuyomu.jp/rankings/drama/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ホラー\",\"url\":\"https://kakuyomu.jp/rankings/horror/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ミステリー\",\"url\":\"https://kakuyomu.jp/rankings/mystery/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"エッセイ・ノンフィクション\",\"url\":\"https://kakuyomu.jp/rankings/nonfiction/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"歴史・時代・伝奇\",\"url\":\"https://kakuyomu.jp/rankings/history/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"創作論・評論\",\"url\":\"https://kakuyomu.jp/rankings/criticism/weekly\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"詩・童話・その他\",\"url\":\"https://kakuyomu.jp/rankings/others/weekly\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+        "lastUpdateTime": 1645022077718,
+        "loginUrl": "https://kakuyomu.jp/login",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//span[@id=\"workAuthor-activityName\"]//text()",
+            "intro": "//section[@id=\"description\"]/p",
+            "kind": "//li[@id=\"workGenre\"]//text()",
+            "lastChapter": "//div[contains(@class, \"widget-toc-workInfo\")]//text()",
+            "name": "//h1[@id=\"workTitle\"]//text()"
+        },
+        "ruleContent": {
+            "content": "class.widget-episodeBody@p@text"
+        },
+        "ruleExplore": {
+            "author": "//a[@itemprop=\"author\"]//text()",
+            "bookList": "//div[contains(@class, \"widget-work\")]",
+            "bookUrl": "//a[@itemprop=\"name\"]/@href",
+            "intro": "//p[@class=\"widget-workCard-introduction\"]",
+            "kind": "//a[@itemprop=\"genre\"]//text()",
+            "lastChapter": "//span[contains(@class, \"widget-toc-workInfo\")]//text()",
+            "name": "//a[@itemprop=\"name\"]//text()"
+        },
+        "ruleSearch": {
+            "author": "//a[@itemprop=\"author\"]//text()",
+            "bookList": "//div[contains(@class, \"widget-work\")]",
+            "bookUrl": "//a[@itemprop=\"name\"]/@href",
+            "intro": "//p[@class=\"widget-workCard-introduction\"]",
+            "kind": "//a[@itemprop=\"genre\"]//text()",
+            "lastChapter": "//span[contains(@class, \"widget-workCard-status\")]/span//text()|//span[@itemprop=\"dateModified\"]/text()",
+            "name": "//a[@itemprop=\"name\"]/text()"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@class=\"widget-toc-main\"]/ol/li",
+            "chapterName": "//span/text()",
+            "chapterUrl": "//a[@class=\"widget-toc-episode-episodeTitle\"]/@href"
+        },
+        "searchUrl": "/search?q={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

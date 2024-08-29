@@ -1,0 +1,62 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "ノクターンノベルズ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://noc.syosetu.com/top/top/",
+        "bookUrlPattern": "https://novel18.syosetu.com/\\w*/",
+        "concurrentRate": "",
+        "customOrder": 5,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"新着一覧\",\"url\":\"https://noc.syosetu.com/search/search/search.php?order=new&p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"小説PickUp！一覧\",\"url\":\"https://noc.syosetu.com/pickup/list/index.php?p={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"日間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/daily_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"週間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/weekly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"月間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/monthly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"四半期ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/quarter_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"年間ランキング\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\": 1}},\r\n{\"title\":\"総合\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_total/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"短編\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_t/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"連載中\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_r/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\r\n{\"title\":\"完結済\",\"url\":\"https://noc.syosetu.com/rank/list/type/yearly_er/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\r\n]",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+        "lastUpdateTime": 1645021222601,
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info_inbox.1@a@text",
+            "init": "id.novel_contents",
+            "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+            "kind": "class.info_inbox.3@text",
+            "lastChapter": "",
+            "name": "id.title_s1@a@text",
+            "tocUrl": "id.novelindex_button.0@a@href",
+            "wordCount": "class.infotop.1@class.h3_right.0@text"
+        },
+        "ruleContent": {
+            "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "author": "class.pickupnovellist@tag.li.2@a.0@text||tag.li.1@text##作者：",
+            "bookList": "class.pickupnovellist||class.novellist||class.ranking_inbox@class.ranking",
+            "bookUrl": "class.novellist@tag.li.2@tag.a@href||class.dummy@ul@tag.li.1@a@href||class.pickupnovellist@tag.li.2@tag.a.1@href",
+            "intro": "class.pickup_ex@text||class.dummy@ul@class.ex@text",
+            "kind": "class.keyword@tag.a@text",
+            "lastChapter": "class.ranking@tag.li.2@text&&class.novellist@tag.li.2@text&&class.attention@text##[／：小説情報総合ポイント\\s]|[0-9,]+文字|[\\s\\S]*(?=[連完短])",
+            "name": "class.pickup_title@text||class.title@tag.a@text",
+            "wordCount": "class.dummy@tag.ul@tag.li.3@text&&tag.li.2@text##([0-9,]*文字)##$1###"
+        },
+        "ruleSearch": {
+            "author": "class.novellist@tag.li.1@text##作者：",
+            "bookList": "class.novellist",
+            "bookUrl": "class.novellist@tag.li.2@tag.a@href",
+            "intro": "class.ex@text",
+            "kind": "class.keyword@tag.a@text",
+            "lastChapter": "tag.li.2@text&&class.attention@text##[／：小説情報総合ポイント\\s]",
+            "name": "class.title@text",
+            "wordCount": "class.dummy@tag.ul@tag.li.3@text##([0-9,]*文字)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+            "chapterName": "tag.a@text||class.novel_title@text",
+            "chapterUrl": "tag.a@href||",
+            "nextTocUrl": "text.>@href",
+            "updateTime": "class.kaikou@text"
+        },
+        "searchUrl": "https://noc.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+        "weight": 0
+    }
+]

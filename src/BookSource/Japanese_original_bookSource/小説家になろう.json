@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "网络不畅考虑科学上网使用\n整理修改：酷安 Wolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "小説家になろう",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://syosetu.com",
+        "bookUrlPattern": "",
+        "customOrder": 2,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"異世界\",\"url\":\"http://yomou.syosetu.com/search.php?&word=異世界&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"転生\",\"url\":\"http://yomou.syosetu.com/search.php?&word=転生&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"冒険\",\"url\":\"http://yomou.syosetu.com/search.php?&word=冒険&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"主人公最強\",\"url\":\"http://yomou.syosetu.com/search.php?&word=主人公最強&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"男主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=男主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"女主人公\",\"url\":\"http://yomou.syosetu.com/search.php?&word=女主人公&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"残酷な描写\",\"url\":\"http://yomou.syosetu.com/search.php?&word=残酷な描写あり&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"現代社会\",\"url\":\"http://yomou.syosetu.com/search.php?&word=現代社会&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ESN大賞\",\"url\":\"http://yomou.syosetu.com/search.php?&word=ESN大賞&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"R15\",\"url\":\"http://yomou.syosetu.com/search.php?&word=R15&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"日常\",\"url\":\"http://yomou.syosetu.com/search.php?&word=日常&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"恋愛\",\"url\":\"http://yomou.syosetu.com/search.php?&word=恋愛&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"魔法\",\"url\":\"http://yomou.syosetu.com/search.php?&word=魔法&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"学園\",\"url\":\"http://yomou.syosetu.com/search.php?&word=学園&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"青春\",\"url\":\"http://yomou.syosetu.com/search.php?&word=青春&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"精霊\",\"url\":\"http://yomou.syosetu.com/search.php?&word=精霊&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"奴隷\",\"url\":\"http://yomou.syosetu.com/search.php?&word=奴隷&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"貴族\",\"url\":\"http://yomou.syosetu.com/search.php?&word=貴族&order_former=search&order=new¬nizi=1&p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+        "lastUpdateTime": 1647273625042,
+        "loginUrl": "",
+        "respondTime": 5320,
+        "ruleBookInfo": {
+            "init": "",
+            "intro": "id.novel_ex@html"
+        },
+        "ruleContent": {
+            "content": "id.novel_honbun@tag.p@text"
+        },
+        "ruleExplore": {
+            "bookList": ""
+        },
+        "ruleSearch": {
+            "author": "tag.a.1@text",
+            "bookList": "class.searchkekka_box",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "@js:'http://1t.click/GPx'",
+            "intro": "class.ex@text##^\\s+",
+            "kind": "tag.td.1@tag.a.0@text&&tag.td.1@tag.a.1@text&&tag.td.1@tag.a.2@text",
+            "lastChapter": "tag.td.1@text##.+最終更新日：(\\d+/\\d+/\\d+ \\d+:\\d+).+##$1",
+            "name": "class.novel_h@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_sublist2@tag.dd",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "http://yomou.syosetu.com/search.php?&word={{key}}&order_former=search&order=weeklypoint¬nizi=1&p={{page}}",
+        "weight": 0
+    }
+]

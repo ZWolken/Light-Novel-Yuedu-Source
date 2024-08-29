@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "国轻，可登录\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "百合会",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.yamibo.com/site/novel",
+        "bookUrlPattern": "",
+        "customOrder": -88951538,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"原创小说\",\"url\":\"https://www.yamibo.com/novel/list?q=1&page={{page}}&per-page=50\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"二次元同人\",\"url\":\"https://www.yamibo.com/novel/list?q=2&page={{page}}&per-page=50\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"三次元同人\",\"url\":\"https://www.yamibo.com/novel/list?q=3&page={{page}}&per-page=50\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"完结\",\"url\":\"https://www.yamibo.com/novel/list?q=finish&page={{page}}&per-page=50\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"全部作品\",\"url\":\"https://www.yamibo.com/novel/list?page={{page}}&per-page=50\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}\r\n]",
+        "lastUpdateTime": 1644844037838,
+        "loginUi": "",
+        "loginUrl": "https://www.yamibo.com/user/login",
+        "respondTime": 1893,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img.1@src",
+            "intro": "class.panel-body.1@text"
+        },
+        "ruleContent": {
+            "content": "class.row@tag.p@textNodes",
+            "imageStyle": "0.0"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "class.table table-hover@tag.tbody@tag.tr",
+            "bookUrl": "tag.td.1@tag.a@href",
+            "coverUrl": "tag.img.0@src",
+            "kind": "tag.td.3@tag.a@text",
+            "lastChapter": "",
+            "name": "tag.td.1@tag.a@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.col-md-4 col-xs-6!0:1:2",
+            "chapterName": "tag.a@text",
+            "chapterUrl": "tag.a@href"
+        },
+        "searchUrl": "https://www.yamibo.com/search/novel?SearchForm%5Bkeyword%5D={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "bookSourceComment": "国轻，可登录\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "刺猬猫",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ciweimao.com",
+        "bookUrlPattern": "",
+        "customOrder": -88951535,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{'title':'榜单排行','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'点击榜','url':'https://www.ciweimao.com/rank-index/no-vip-click-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'收藏榜','url':'https://www.ciweimao.com/rank-index/favor-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推荐榜','url':'https://www.ciweimao.com/rank-index/recommend-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'订阅榜','url':'https://www.ciweimao.com/rank-index/buy-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'月票榜','url':'https://www.ciweimao.com/rank-index/yp-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'吐槽榜','url':'https://www.ciweimao.com/rank-index/tsukkomi-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'新书榜','url':'https://www.ciweimao.com/rank-index/yp_new-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'刀片榜','url':'https://www.ciweimao.com/rank-index/blade-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'更新榜','url':'https://www.ciweimao.com/rank-index/get-update-most-week/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'免费作品','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'异界幻想','url':'https://www.ciweimao.com/book_list/1-8-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'青春日常','url':'https://www.ciweimao.com/book_list/1-27-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'动漫穿越','url':'https://www.ciweimao.com/book_list/1-10-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'神秘未知','url':'https://www.ciweimao.com/book_list/1-1-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'战争历史','url':'https://www.ciweimao.com/book_list/1-30-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推理灵异','url':'https://www.ciweimao.com/book_list/1-7-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'未来幻想','url':'https://www.ciweimao.com/book_list/1-6-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'游戏世界','url':'https://www.ciweimao.com/book_list/1-3-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'热血竞技','url':'https://www.ciweimao.com/book_list/1-5-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'现实都市','url':'https://www.ciweimao.com/book_list/1-29-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'同人','url':'https://www.ciweimao.com/book_list/1-24-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'女频','url':'https://www.ciweimao.com/book_list/2-11-total_click-0-0-2/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'完本作品','url':'','style':{layout_flexGrow:1,layout_flexBasisPercent:1}},\n{'title':'异界幻想','url':'https://www.ciweimao.com/book_list/1-8-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'青春日常','url':'https://www.ciweimao.com/book_list/1-27-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'动漫穿越','url':'https://www.ciweimao.com/book_list/1-10-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'神秘未知','url':'https://www.ciweimao.com/book_list/1-1-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'战争历史','url':'https://www.ciweimao.com/book_list/1-30-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'推理灵异','url':'https://www.ciweimao.com/book_list/1-7-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'未来幻想','url':'https://www.ciweimao.com/book_list/1-6-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'游戏世界','url':'https://www.ciweimao.com/book_list/1-3-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'热血竞技','url':'https://www.ciweimao.com/book_list/1-5-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'现实都市','url':'https://www.ciweimao.com/book_list/1-29-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'同人','url':'https://www.ciweimao.com/book_list/1-24-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}},\n{'title':'女频','url':'https://www.ciweimao.com/book_list/2-11-total_click-0-0-1/quanbu/{{page}}','style':{layout_flexGrow:1,layout_flexBasisPercent:0.25}}]",
+        "header": "",
+        "lastUpdateTime": 1643567916124,
+        "loginUrl": "https://www.ciweimao.com/signup/login",
+        "respondTime": 2359,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "class.cover ly-fl@tag.img@src",
+            "init": "",
+            "intro": "class.book-desc.0@text@js:result.replace(/(&.{3}br.{3,4};)+|[\\n\\s]+/g,\"\\n\").replace(/\\n\\s*\\n/g,\"\\n\").replace(/^\\s*\\n/g,\"\").replace(/\\n\\s*/g,\"\\n\\u3000\\u3000\").replace(/^\\s*/g,\"\\u3000\\u3000\")",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "class.btn btn-lg btn-danger@tag.a.0@href||text.所有章节@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "#J_BookRead .chapter@textNodes",
+            "nextContentUrl": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author@tag.a.0@text||p@tag.a.0@text",
+            "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+            "bookUrl": "class.tit@tag.a.0@href||class.name@tag.a.0@href",
+            "coverUrl": "class.lazyload@data-original",
+            "intro": "class.desc@text",
+            "kind": "class.type@tag.p.0@text##\\[|\\]",
+            "lastChapter": "class.cnt@tag.p.1@text||class.chapter@tag.p.0@text##最近更新：.*\\/(.*)##$1",
+            "name": "class.tit@tag.a.0@text||class.name@tag.a.0@text",
+            "wordCount": "class.cnt@tag.p.1@text##最近更新：|\\/.*"
+        },
+        "ruleSearch": {
+            "author": "class.cnt.0@tag.p.1@tag.a.0@text||class.author@text",
+            "bookList": "class.rank-book-list@tag.li||class.book-list-table@tag.tr!0",
+            "bookUrl": "class.cnt.0@class.tit.0@tag.a.0@href||class.name@tag.a@href",
+            "coverUrl": "class.cover@tag.img@data-original||tag.img.0@src",
+            "intro": "class.desc@text",
+            "kind": "",
+            "lastChapter": "@css:p:matches(最近更新)@text||.chapter@text\n@js:result.includes('最近更新') ? result.replace(/最近更新：(\\d+-\\d+-\\d+).*\\/(.*)/,'$2（$1）') : result",
+            "name": "class.cnt.0@class.tit.0@tag.a.0@text||class.name@tag.a@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".book-chapter-box@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{'webView': true}",
+            "isVip": "@js:result.outerHtml().includes('icon-lock')",
+            "nextTocUrl": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/get-search-book-list/0-0-0-0-0-0/全部/{{key}}/{{page}}",
+        "weight": 0
+    }
+]

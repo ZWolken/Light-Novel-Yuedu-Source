@@ -1,0 +1,49 @@
+[
+    {
+        "bookSourceComment": "国轻，可登录\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "ACGZC",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.acgzc.com",
+        "bookUrlPattern": "",
+        "customOrder": -88951536,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"古代幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=12&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"近代幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=19&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"未来幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=26&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"体育游戏\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=33&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"同人作品\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=42&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"短篇作品\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=46&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"漫画世界\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=50&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"异能时代\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=20&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"穿越重生\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=21&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"谍战风云\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=22&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"架空战争\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=23&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"军旅生活\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=24&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"现代武林\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=25&per_page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+        "lastUpdateTime": 1644844431372,
+        "loginUrl": "http://www.acgzc.com/index.php/portal/signin",
+        "respondTime": 1418,
+        "ruleBookInfo": {
+            "author": ".a2@tag.span.0@textNodes",
+            "coverUrl": "class.a1@tag.img.0@src",
+            "intro": "h3@html",
+            "kind": "tbody@tag.tr.2@tag.a@text&&tbody@tag.tr.2@tag.td.1@textNodes&&.nav-tabs@tag.li.-1@text##.*：|\\s.*",
+            "lastChapter": ".z_zuixin@tag.a.0@text",
+            "name": ".a2@tag.h1@ownText",
+            "tocUrl": ".a3@tag.a.0@href",
+            "wordCount": "tbody@tag.tr.2@tag.td.2@textNodes"
+        },
+        "ruleContent": {
+            "content": ".z_zy@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "tag.a.3@text",
+            "bookList": ".rank-detail ul",
+            "bookUrl": "tag.a.1@href",
+            "coverUrl": "",
+            "kind": "tag.a.0@text&&tag.li.4@text##\\[|\\]|\\s.*",
+            "name": "tag.a.1@text",
+            "wordCount": "tag.li.2@text"
+        },
+        "ruleToc": {
+            "chapterList": ".zpxg a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/index.php/portal/booklist/?list=true&keywords={{key}}&per_page={{page}}",
+        "weight": 0
+    }
+]

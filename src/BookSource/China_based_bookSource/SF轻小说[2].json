@@ -1,0 +1,60 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "SF轻小说[2]",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://book.sfacg.com/",
+        "customOrder": -88951541,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/List/default.aspx?tid=-1&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"魔幻\",\"url\":\"/List/default.aspx?tid=21&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"玄幻\",\"url\":\"/List/default.aspx?tid=22&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"古风\",\"url\":\"/List/default.aspx?tid=23&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"科幻\",\"url\":\"/List/default.aspx?tid=24&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"校园\",\"url\":\"/List/default.aspx?tid=25&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"都市\",\"url\":\"/List/default.aspx?tid=26&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"游戏\",\"url\":\"/List/default.aspx?tid=27&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"同人\",\"url\":\"/List/default.aspx?tid=28&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}},\n{\"title\":\"悬疑\",\"url\":\"/List/default.aspx?tid=29&<,PageIndex={{page}}>\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.15}}]",
+        "header": "{\"user-agent\":\"okhttp/3.10.0.1\"}",
+        "lastUpdateTime": 1708252590235,
+        "loginUrl": "https://book.sfacg.com/",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author-name@span@text",
+            "canReName": "1",
+            "coverUrl": ".summary-pic@img@src",
+            "intro": "<br>{{@@a.highlight@span.text@text##(^|[\\n])##🏷️}}\n{{'&lrm;'}}\n{{@@p.introduce@text##(^|[\\s]+)##<br>}}",
+            "kind": "h1.title@span.tag@text&&div.count-detail@div.text-row@span.text.0:1:3@text##类型：|.*字\\[|]|更新：",
+            "lastChapter": "h3.chapter-title@a.link@text",
+            "name": "h1.title@span.text@text",
+            "tocUrl": "text.点击阅读@href",
+            "wordCount": "div.count-detail@div.text-row@span.text.1@text##\\D"
+        },
+        "ruleContent": {
+            "content": "div.article-content[id='ChapterBody']@html"
+        },
+        "ruleExplore": {
+            "author": "a[id][target]@text",
+            "bookList": "ul.Comic_Pic_List",
+            "bookUrl": "strong@a@href",
+            "coverUrl": "li.Conjunction@img@src",
+            "intro": "li.1@ownText##.*\\d+字",
+            "kind": "span.font_red@text&&li.1@a.2@text&&li.1@ownText##.*：\\s/\\s/\\s|\\s/\\s\\d+字.*",
+            "name": "strong@a@text",
+            "wordCount": "li.1@ownText##.*\\d\\s/\\s|字.*"
+        },
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "li.1@ownText##综合信息：\\s|/\\d.*",
+            "bookList": "ul[style='width:100%']",
+            "bookUrl": "a.orange_link2@href",
+            "coverUrl": "li.Conjunction@img@src",
+            "intro": "li.1@ownText##.*\\d\\s|\\s",
+            "name": "a.orange_link2@text"
+        },
+        "ruleToc": {
+            "chapterList": "div.wrap.s-list@h3.catalog-title, li",
+            "chapterName": "{{@@span.icn@text####🖼️}}{{@@h3.catalog-title@text||@@a@ownText}}",
+            "chapterUrl": "a@href",
+            "isVip": "span.icn_vip@text",
+            "isVolume": "h3.catalog-title@text"
+        },
+        "searchUrl": "http://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+        "weight": 0
+    }
+]

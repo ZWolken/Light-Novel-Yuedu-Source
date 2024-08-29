@@ -1,0 +1,45 @@
+[
+    {
+        "bookSourceComment": "国轻，可登录\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "次元姬小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ciyuanji.com",
+        "bookUrlPattern": "",
+        "customOrder": -88951537,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"最近更新\",\"url\":\"https://www.ciyuanji.com/Classification?rankType=3&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"全部小说\",\"url\":\"https://www.ciyuanji.com/Classification?rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\r\n{\"title\":\"最新上架\",\"url\":\"https://www.ciyuanji.com/Classification?rankType=4&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"畅销小说\",\"url\":\"https://www.ciyuanji.com/Classification?rankType=2&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总畅销榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=3&countType=4&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总月票榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=1&countType=2&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总推荐榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=2&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总人气榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=4&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总打赏榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=5&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总刀片榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=6&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总收藏榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=7&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总更新榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=8&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"总战力榜\",\"url\":\"https://www.ciyuanji.com/ranking?rankCode=9&countType=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"玄幻奇幻\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=5&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"青春日常\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=6&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"科幻未来\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=4&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"仙侠武侠\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=12&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"游戏竞技\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=1&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"诡秘悬疑\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=2&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"历史军事\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=3&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"动漫同人\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=10&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"搞笑吐槽\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=13&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\r\n{\"title\":\"变身入替\",\"url\":\"https://www.ciyuanji.com/Classification?firstClassify=14&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\r\n]",
+        "lastUpdateTime": 1645379488714,
+        "loginUrl": "https://www.ciyuanji.com/login?sourceFullPath=%2F",
+        "respondTime": 2713,
+        "ruleBookInfo": {
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.content@textNodes",
+            "kind": "class.icons-item!0@span@text",
+            "lastChapter": "class.chapter.0@text",
+            "tocUrl": "class.tabs@tag.a.1@href"
+        },
+        "ruleContent": {
+            "content": "class.content-chapter@p@textNodes"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "class.author@text",
+            "bookList": "class.item||class.book@a||class.left@section",
+            "bookUrl": "a@href",
+            "coverUrl": "img@data-src",
+            "intro": "tag.p.1@title",
+            "kind": "class.num@text##·##,",
+            "name": "h4@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.list@li@class.tag@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.ciyuanji.com/searchList?keyword={{key}}",
+        "weight": 0
+    }
+]

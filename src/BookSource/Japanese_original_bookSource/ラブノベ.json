@@ -1,0 +1,63 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "ラブノベ",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://lovenove.syosetu.com/",
+        "bookUrlPattern": "https://ncode.syosetu.com/\\w*/",
+        "concurrentRate": "",
+        "customOrder": 4,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n{\"title\":\"恋愛小説ランキング (総合ポイントの高い順)\",\"url\":\"https://lovenove.syosetu.com/search/search/?order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"新着一覧\",\"url\":\"https://lovenove.syosetu.com/search/search/?p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"完結済み連載小説\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=er&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"連載中\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=r&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"短編\",\"url\":\"https://lovenove.syosetu.com/search/search/?type=t&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ジャンル：異世界\",\"url\":\"https://lovenove.syosetu.com/search/search/?genre=101&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}},\r\n{\"title\":\"ジャンル：現実世界\",\"url\":\"https://lovenove.syosetu.com/search/search/?&genre=102&order=hyoka&p={{page}}\",\"style\":{\"layout_flexGrow\":1}}\r\n]",
+        "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\n\"Cookie\": \"over18=yes\"\n}",
+        "lastUpdateTime": 1645019141494,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.info_inbox.1@a@text",
+            "init": "id.novel_contents",
+            "intro": "id.title_s1@a@text&&class.info_inbox.3@text&&class.info_inbox.2@html",
+            "kind": "class.info_inbox.0@text&&class.info_inbox.3@text",
+            "name": "id.title_s1@a@text",
+            "tocUrl": "id.novelindex_button.0@a@href",
+            "wordCount": "class.infotop.1@class.h3_right.0@text"
+        },
+        "ruleContent": {
+            "content": "id.novel_p@html&&id.novel_honbun@html&&id.novel_a@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "class.clearfix.1@tag.a.0@text",
+            "bookList": "class.search_result clearfix",
+            "bookUrl": "text.小説情報@href",
+            "intro": "class.search_result clearfix@tag.p@text",
+            "kind": "class.clearfix.3@text##[ジャンル\\s]",
+            "lastChapter": "class.search_result clearfix@html##[\\s\\S]*> (?=[0-9,]+ pt)|\\s(?=pt)|</span>|\\n[\\s\\S]*",
+            "name": "class.novel_title@text",
+            "wordCount": "class.clearfix.2@text##([0-9,]+文字)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.novel_sublist@ul@tag.li||class.novel_title",
+            "chapterName": "tag.a@text||class.novel_title@text",
+            "chapterUrl": "tag.a@href||",
+            "nextTocUrl": "text.>@href",
+            "updateTime": "class.kaikou@text"
+        },
+        "searchUrl": "https://lovenove.syosetu.com/search/search/?word={{key}}&p={{page}}&order=hyoka",
+        "weight": 0
+    }
+]

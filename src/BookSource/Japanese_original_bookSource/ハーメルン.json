@@ -1,0 +1,50 @@
+[
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "ハーメルン",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://syosetu.org/",
+        "bookUrlPattern": "https://syosetu.org/novel/[0-9]+/",
+        "concurrentRate": "",
+        "customOrder": 7,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "[\r\n  {\r\n    \"title\": \"新着一覧\",\r\n    \"url\": \"https://syosetu.org/search/?mode=search&page={{page}}\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験1\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験2\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp2\"\r\n  },\r\n  {\r\n    \"title\": \"ピックアップ実験3\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_exp3\"\r\n  },\r\n  {\r\n    \"title\": \"日間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_day\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_day\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_day\"\r\n  },\r\n  {\r\n    \"title\": \"週間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_week\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_week\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_week\"\r\n  },\r\n  {\r\n    \"title\": \"月間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_month\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_month\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_month\"\r\n  },\r\n  {\r\n    \"title\": \"四半期ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_3month\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_3month\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_3month\"\r\n  },\r\n  {\r\n    \"title\": \"年間ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_year\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_year\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_year\"\r\n  },\r\n  {\r\n    \"title\": \"累計ランキング\",\r\n    \"url\": \"\",\r\n    \"style\": {\r\n      \"layout_flexGrow\": 0,\r\n      \"layout_flexBasisPercent\": 1\r\n    }\r\n  },\r\n  {\r\n    \"title\": \"総合\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_total\"\r\n  },\r\n  {\r\n    \"title\": \"二次創作\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_2_total\"\r\n  },\r\n  {\r\n    \"title\": \"オリジナル\",\r\n    \"url\": \"https://syosetu.org/?mode=rank_ori_total\"\r\n  }\r\n]",
+        "header": "{\r\n\"User-Agent\": \"Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36 Edg/98.0.4758.80\",\r\n\"Cookie\": \"over18=off\"\r\n}",
+        "lastUpdateTime": 1646204412260,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "class.intro@text##▼詳細メニューへ|メニュー|作：",
+            "init": "id.page",
+            "intro": "class.table1@tag.a.0@text&&class.table1@tag.a.1@text&&class.table1@tag.tr.6@text&&class.table1@tag.tr.4@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+            "kind": "class.table1@tag.a.1@text&&class.table1@tag.tr.6@text",
+            "name": "class.table1@tag.a.0@text",
+            "tocUrl": "class.table1@tag.a.0@href",
+            "wordCount": "class.table1@tag.tr.10@tag.td.1@text"
+        },
+        "ruleContent": {
+            "content": "id.maegaki@html&&id.honbun@html&&id.atogaki@html##\\s*<ruby>\\s*|\\s*<rb>\\s*|\\s*<\\/rb>\\s*|\\s*<rp>\\s*|\\s*<\\/rp>\\s*|\\s*<rt>\\s*|\\s*<\\/rt>\\s*|\\s*<\\/ruby>\\s*",
+            "imageStyle": "full"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "class.trigger@html##(作者：)(<a href=[\\s\\S]+?>)?([\\s\\S]+?)<(/a|/p)>##$3###",
+            "bookList": "class.search_box",
+            "bookUrl": "text.小説情報@href",
+            "intro": "class.toggle_container@tag.p.0@text",
+            "kind": "class.trigger@tag.p.1@text&&class.trigger@tag.p.2@text##タグ：|原作：|オリジナル：",
+            "lastChapter": "class.trigger@tag.p.3@text&&class.toggle_container@tag.p.4@text##[： ]",
+            "name": "class.trigger@tag.a.0@text",
+            "wordCount": "class.toggle_container@text##[\\s\\S]+合計：([0-9,]+字)##$1###"
+        },
+        "ruleToc": {
+            "chapterList": "class.entry.0@tag.li||id.entry_box.1",
+            "chapterName": "tag.a.0@html||id.entry_box@html##(</span>|<h2> )([\\s\\S]+?)<(/h2|br)>##$2###",
+            "chapterUrl": "tag.a.0@href||",
+            "updateTime": "class.date@text||"
+        },
+        "searchUrl": "https://syosetu.org/search/?mode=search&type=28&word={{key}}&page={{page}}",
+        "weight": 0
+    }
+]

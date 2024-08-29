@@ -1,0 +1,44 @@
+[
+    {
+        "bookSourceComment": "国轻\n整理修改：GitHub@ZWolken",
+        "bookSourceGroup": "",
+        "bookSourceName": "同人小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.trxs.cc",
+        "bookUrlPattern": "",
+        "customOrder": -88951534,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"http://www.trxs.cc/tongren/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"最新入库\",\"url\":\"http://www.trxs.cc/tags-151-<0,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"完本小说\",\"url\":\"http://www.trxs.cc/tags-150-<0,{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}},\n{\"title\":\"热门排行\",\"url\":\"http://www.trxs.cc/hot/index<,_{{page}}>.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.4}}]",
+        "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+        "lastUpdateTime": 1643567922474,
+        "loginUrl": "",
+        "respondTime": 1487,
+        "ruleBookInfo": {
+            "coverUrl": "class.pic@img@src",
+            "intro": "class.infos@p@textNodes",
+            "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+            "lastChapter": "class.book_list clearfix@tag.li.-1@a@text"
+        },
+        "ruleContent": {
+            "content": "class.read_chapterDetail@html"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "class.booknews@textNodes",
+            "bookList": "class.books m-cols@children",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "lastChapter": "class.date@text",
+            "name": "h3@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.book_list clearfix@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "http://www.trxs.cc/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+        "weight": 0
+    }
+]

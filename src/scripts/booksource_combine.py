@@ -3,8 +3,8 @@ import pathlib
 from datetime import datetime
 
 # 定义书源根目录
-BOOKSOURCE_ROOT_DIR = pathlib.Path(__file__).parent.parent / "BookSource"
 ROOT_DIR = pathlib.Path(__file__).parent.parent
+BOOKSOURCE_ROOT_DIR = ROOT_DIR / "BookSource"
 
 # 配置文件夹分组别名
 FOLDER_ALIASES = {
@@ -14,9 +14,12 @@ FOLDER_ALIASES = {
 }
 
 def json_list(kind_path):
-    """获取指定路径下所有JSON文件的路径列表"""
-    return list(pathlib.Path(kind_path).rglob("*.json"))
-
+    """获取指定路径下所有JSON文件的路径列表，排除archive文件夹"""
+    json_files = []
+    for path in pathlib.Path(kind_path).rglob("*.json"):
+        if 'archive' not in path.parts:
+            json_files.append(path)
+    return json_files
 
 def combine_json_files(source_dir, group_name):
     """将指定目录下的所有JSON文件整合成一个JSON文件，并添加分组"""
@@ -50,7 +53,7 @@ def main():
 
     # 遍历书源根目录下的每个子目录，排除 archive 文件夹
     for source_dir in BOOKSOURCE_ROOT_DIR.iterdir():
-        if source_dir.is_dir() and source_dir.name != "archive":
+        if source_dir.is_dir():
             # 获取文件夹别名，如果没有配置别名则使用文件夹名称
             alias = FOLDER_ALIASES.get(source_dir.name, source_dir.name)
             group_name = f"{alias}({current_date})\nGitHub@ZWolken"

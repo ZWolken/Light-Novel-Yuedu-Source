@@ -17,11 +17,11 @@
       "author": "class.au-name@text",
       "coverUrl": "class.book-img fl@tag.img@src",
       "intro": "class.book-dec Jbook-dec hide@p@text",
-      "kind": "class.book-label@children@text",
+      "kind": "class.book-label@children@text## ##,",
       "lastChapter": "class.tit fl.0@text",
       "name": "class.book-name@text",
       "tocUrl": "class.btn read-btn@href",
-      "wordCount": "class.nums@tag.i.1@text"
+      "wordCount": "@js:\nlet wordCountStr = java.getString(\"class.nums@tag.i.1@text\");\nlet wordCount = parseInt(wordCountStr, 10);\nlet doubledWordCount = wordCount * 2;\ndoubledWordCount\n"
     },
     "ruleContent": {
       "content": "id.TextContent@text&&class.divimage@tag.img@all",
@@ -43,7 +43,7 @@
       "author": "class.bookinfo@a.0@text",
       "bookList": "class.search-result-list clearfix",
       "bookUrl": "class.btn@a.0@href||class.tit@a.0@href||class.imgbox fl se-result-book@a.0@href",
-      "checkKeyWord": "",
+      "checkKeyWord": "魔女之旅",
       "coverUrl": "class.imgbox fl se-result-book@a.0@tag.img.0@src",
       "intro": "class.fl se-result-infos@p.0@text",
       "kind": "class.bookinfo@a.1@text%%class.bookinfo@span.0@text",

@@ -50,6 +50,7 @@ def main():
     """主函数"""
     # 获取当前日期
     current_date = datetime.now().strftime("%Y-%m-%d")
+    all_combined_data = []
 
     # 遍历书源根目录下的每个子目录，排除 archive 文件夹
     for source_dir in BOOKSOURCE_ROOT_DIR.iterdir():
@@ -58,10 +59,15 @@ def main():
             alias = FOLDER_ALIASES.get(source_dir.name, source_dir.name)
             group_name = f"{alias}({current_date})\nGitHub@ZWolken"
             combined_data = combine_json_files(source_dir, group_name)
+            all_combined_data.extend(combined_data)
             output_path = ROOT_DIR / "build" / f"{source_dir.name}.json"
             save_combined_json(combined_data, output_path)
             print(f"Combined JSON saved to {output_path}")
 
+    # 保存所有分组书源文件整合成的一个文件
+    all_output_path = ROOT_DIR / "build" / "All_bookSource.json"
+    save_combined_json(all_combined_data, all_output_path)
+    print(f"All combined JSON saved to {all_output_path}")
 
 if __name__ == "__main__":
     main()

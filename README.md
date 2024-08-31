@@ -21,7 +21,8 @@
 1. `Japan_based_bookSource.json`：日轻小说书源文件
 2. `China_based_bookSource.json`：国轻小说书源文件
 3. `Japanese_original_bookSource.json`：日语原版轻小说书源文件
-4. `original_comment.md`：部分书源完整注释内容
+4. `All_bookSource.json`：所有书源合集文件
+5. `original_comment.md`：部分书源完整注释内容
 
 ## 使用说明
 
@@ -42,6 +43,8 @@
 
 ## 导入方法
 
+### 书源导入
+
 1. 复制对应书源/书源合集的JSON文件的链接或者下载JSON文件
 2. 打开阅读APP
 3. 我的
@@ -50,6 +53,23 @@
 6. 网络导入/本地导入
 7. 复制链接/选择文件
 8. 确认
+
+### 订阅源导入(便于更新)
+
+1. 复制对应订阅源的链接
+2. 打开阅读APP
+3. 订阅
+4. 规则订阅
+5. 右上角添加+
+6. 类型书源，名称随意，链接粘贴
+7. 确认
+
+|     订阅源     |                                                               链接                                                               |
+| :------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+|    日轻小说    |      [日轻订阅源](https://github.com/gongfuture/Light-Novel-Yuedu-Source/releases/latest/download/Japan_based_bookSource.json)      |
+|    国轻小说    |      [国轻订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/China_based_bookSource.json)      |
+| 日语原版轻小说 | [日语原版订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/Japanese_original_bookSource.json) |
+|    所有书源    |        [所有书源订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/All_bookSource.json)        |
 
 ## 登录方法
 

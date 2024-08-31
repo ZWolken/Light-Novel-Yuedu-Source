@@ -66,10 +66,12 @@
 
 |     订阅源     |                                                               链接                                                               |
 | :------------: | :------------------------------------------------------------------------------------------------------------------------------: |
-|    日轻小说    |      [日轻订阅源](https://github.com/gongfuture/Light-Novel-Yuedu-Source/releases/latest/download/Japan_based_bookSource.json)      |
+|    日轻小说    |      [日轻订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/Japan_based_bookSource.json)      |
 |    国轻小说    |      [国轻订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/China_based_bookSource.json)      |
 | 日语原版轻小说 | [日语原版订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/Japanese_original_bookSource.json) |
 |    所有书源    |        [所有书源订阅源](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/latest/download/All_bookSource.json)        |
+
+*可以直接订阅所有书源，仅打开对应分组即可*
 
 ## 登录方法
 

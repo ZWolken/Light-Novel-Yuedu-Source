@@ -6,9 +6,9 @@
 ## 介绍
 
 ~~**由于多重原因，该项目处在非维护周期内，任何对于书源的无法正常使用等情况的报告issue，在正常情况下都不会进行解决。**~~<br>
-**目前由 @gongfuture 转入半维护周期，由于能力不足和精力有限等原因，任何对于书源的issue，可能都不会及时进行解决。**
+**目前由 [@gongfuture](https://github.com/gongfuture) 转入半维护周期，由于能力不足和精力有限等原因，任何对于书源的issue，可能都不会及时进行解决。**
 
-**欢迎fork本仓库修复维护后提出PR进行合并。**
+**欢迎 fork 本仓库修复维护后提出 PR 进行合并。**
 
 > [!CAUTION]
 > 内容转载请保持原说明。
@@ -28,14 +28,14 @@
 2. `真白萌`、`轻小说文库(.cc)`、`轻小说文库(.net)`和`有度轻小说`登录后方可正常使用
 3. 部分源搜索存在问题，建议前往原网站找到所需阅读书籍的网址后，使用阅读APP主页面右上角菜单⠇内的`添加网址`功能导入书籍
 4. 由于该项目处在非维护周期内，不保证书源的有效性
-4. 日语原版轻小说书源文件的说明请见：[日本Web小説 Book Source](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/tag/JA)
+4. 日语原版轻小说书源文件的说明请见：[日本Web小说 Book Source](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases/tag/JA)
 5. 详细原使用说明请见：[原README文件](/old_ver/README.md)
 
 ## 导入方法
 
 ### 书源导入
 
-1. 访问[Release 发行版](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases)，复制所需书源/书源合集的JSON文件的链接或者下载对应的文件
+1. 访问[Release发行版](https://github.com/ZWolken/Light-Novel-Yuedu-Source/releases)，复制所需书源/书源合集的JSON文件的链接或者下载对应的文件
 2. 打开阅读APP
 3. 我的
 4. 书源管理

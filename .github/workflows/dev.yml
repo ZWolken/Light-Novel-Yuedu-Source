@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: booksource-json-files
-        path: src/BookSource/build/*.json
+        path: src/build/*.json

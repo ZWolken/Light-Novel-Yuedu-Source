@@ -24,7 +24,7 @@ jobs:
 
     - name: Run booksource_combine script
       run: |
-        python src/scripts/booksource_combine/booksource_combine.py
+        python src/scripts/booksource_combine.py
   
     - name: Extract tag name
       id: extract_tag

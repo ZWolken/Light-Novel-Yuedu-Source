@@ -21,8 +21,3 @@ changelog:
     - title: '🧶 其他更新 / Others'
       labels:
         - '*'
-      exclude:
-        - PR:feat
-        - PR:bugfix
-        - PR:docs
-        - PR:refact

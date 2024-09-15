@@ -16,7 +16,7 @@ changelog:
         - PR:refact
     - tltle: '🔧 自动化 / CI/CD'
       labels:
-        - PR:CI/CD
+        - PR:ci
     - title: '🧶 其他更新 / Others'
       labels:
         - '*'

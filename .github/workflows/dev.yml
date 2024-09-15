@@ -1,0 +1,33 @@
+name: Develop BookSource JSON
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Run booksource_combine script
+      run: |
+        python src/scripts/booksource_combine/booksource_combine.py
+
+    - name: Upload booksource JSON
+      uses: actions/upload-artifact@v4
+      with:
+        name: booksource-json-files
+        path: src/BookSource/build/*.json

@@ -18,6 +18,9 @@ changelog:
     - title: '🔨 代码重构 / Refactor'
       labels:
         - PR:refact
+    - title: '🔧 自动化 / CI'
+      labels:
+        - PR:ci
     - title: '🧶 其他更新 / Others'
       labels:
         - '*'

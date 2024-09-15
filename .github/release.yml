@@ -1,10 +1,6 @@
 #.github/release/yml
 
 changelog:
-  exclude:
-    labels:
-      - PR:ci
-
   categories:
     - title: '✨ 新增内容 / Features'
       labels:

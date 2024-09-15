@@ -1,0 +1,33 @@
+#.github/release/yml
+
+changelog:
+  categories:
+    - title: '✨ 新增内容 / Features'
+      labels:
+        - PR:feat
+    - title: '🐛 错误修复 / Bug Fixes'
+      labels:
+        - PR:bugfix
+    - title: '📝 文档更新 / Documentation'
+      labels:
+        - PR:docs
+    - title: '🔨 代码重构 / Refactor'
+      labels:
+        - PR:refact
+    - tltle: '🔧 自动化 / CI/CD'
+      labels:
+        - PR:CI/CD
+    - title: '🧶 其他更新 / Others'
+      labels:
+        - '*'
+      exclude:
+        labels:
+          - dependencies
+          - PR:feat
+          - PR:bugfix
+          - PR:docs
+          - PR:CI/CD
+          - PR:refact
+    - title: 🤖 Dependencies
+      labels:
+        - dependencies

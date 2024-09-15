@@ -10,7 +10,7 @@ BOOKSOURCE_ROOT_DIR = ROOT_DIR / "BookSource"
 FOLDER_ALIASES = {
     "China_based_bookSource": "国轻小说",
     "Japan_based_bookSource": "日轻小说",
-    "Japanese_original_bookSource": "日本語Web小説"
+    "Japanese_original_bookSource": "日语原版轻小说"
 }
 
 def json_list(kind_path):

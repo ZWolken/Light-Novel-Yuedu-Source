@@ -1,6 +1,10 @@
 #.github/release/yml
 
 changelog:
+  exclude:
+    labels:
+      - PR:ci
+
   categories:
     - title: '✨ 新增内容 / Features'
       labels:
@@ -14,20 +18,11 @@ changelog:
     - title: '🔨 代码重构 / Refactor'
       labels:
         - PR:refact
-    - tltle: '🔧 自动化 / CI/CD'
-      labels:
-        - PR:ci
     - title: '🧶 其他更新 / Others'
       labels:
         - '*'
       exclude:
-        labels:
-          - dependencies
-          - PR:feat
-          - PR:bugfix
-          - PR:docs
-          - PR:CI/CD
-          - PR:refact
-    - title: 🤖 Dependencies
-      labels:
-        - dependencies
+        - PR:feat
+        - PR:bugfix
+        - PR:docs
+        - PR:refact

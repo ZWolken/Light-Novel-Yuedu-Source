@@ -1,8 +1,8 @@
 name: Update Websites
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  release:
+    types: [published]
 
 jobs:
   update-websites:

@@ -38,7 +38,7 @@ jobs:
         files: src/build/*.json
         tag_name: v${{ env.TAG_NAME }}
         name: BookSource_${{ env.TAG_NAME}}
-        draft: false
+        draft: true
         prerelease: false
         make_latest: true
         generate_release_notes: true

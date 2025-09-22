@@ -1,12 +1,12 @@
 [
   {
-    "bookSourceComment": "需要登录\n整理：GitHub@ZWolken",
+    "bookSourceComment": "需要登录\n整理：GitHub@ZWolken\n修改：洛初",
     "bookSourceGroup": "",
     "bookSourceName": "轻小说文库.cc",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wenku8.cc/index.php",
     "bookUrlPattern": "https://www.wenku8.cc/book/.*",
-    "customOrder": -88951562,
+    "customOrder": 2,
     "enabled": true,
     "enabledCookieJar": false,
     "enabledExplore": true,
@@ -14,17 +14,17 @@
     "header": "",
     "lastUpdateTime": 1703691970670,
     "loginUrl": "https://www.wenku8.cc/login.php",
-    "respondTime": 180000,
+    "respondTime": 1194,
     "ruleBookInfo": {
       "author": "tag.td.4@text##.*作者：",
       "coverUrl": "tag.img.1@src",
       "init": "",
-      "intro": "//span[contains(text(), \\\"简介\\\")]/following-sibling::span/text()",
-      "kind": "tag.td.3@text&&tag.td.5@text##.*分类：|.*状态：",
+      "intro": "span.hottext:contains(简介) + br + span@text",
+      "kind": "tag.td.3@text&&tag.td.5@text&&text.作品Tags@text##.*分类：|.*状态：|作品Tags：|\\s##,",
       "lastChapter": "@xpath://span[@style=\"font-size:14px;\"][1]/a/text()",
-      "name": "tag.b.1@text",
+      "name": "tag.b.2@text",
       "tocUrl": "text.小说目录@href",
-      "wordCount": ""
+      "wordCount": "text.全文长度@text##全文长度：(.*?)字##$1"
     },
     "ruleContent": {
       "content": "id.content@html##本文来自.*|最新.*一网打尽！",
@@ -43,15 +43,14 @@
       "name": "",
       "wordCount": ""
     },
-    "ruleReview": {},
     "ruleSearch": {
       "author": "tag.p.0@text##\\/.*",
       "bookList": "@css:table.grid td>div,th a:nth-child(2n+1)",
       "bookUrl": "tag.a.0@href",
       "coverUrl": "tag.img.0@src",
       "intro": "##简介:([^<]+)<##$1###",
-      "kind": "tag.p.0@text##.*分类:|状态:|/##",
-      "lastChapter": "text.最后更新@text##最后更新.",
+      "kind": "tag.p.0@text&&tag.p.2@text##.*分类:|Tags:|\\s##,",
+      "lastChapter": "text.更新@text##(.*?)(\\d{4}-\\d{2}-\\d{2})(.*)##$2 更新",
       "name": "@css:b>a,a[href^=http]@text##我要阅读|加入书架|推荐本书",
       "wordCount": "text.字数@text##.*字数."
     },
